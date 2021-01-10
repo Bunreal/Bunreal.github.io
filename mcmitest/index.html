@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCMI 中文答題結果
+    </title>
+    <link rel="stylesheet" href="mcmi.css">
+</head>
+<body>
+    <div class="title">
+        <h1>Millon Clinical Multiaxial Inventory(MCMI)</h1>
+        <h2>中文答題結果 / 製作者：臨床心理師 楊淯惇，版本日期：2020年12月28日</h2>
+    </div>
+<!-- 這個版本： 調整了輸入格-->
+    <div class="control">
+        <div class="menu">
+            <h1>顯示頁面</h1>
+            <button>原始資料</button>
+            <div class="choose" style="display:none">
+                <h4>臨床人格</h4>
+                <button>1 Schi</button>
+                <button>2A Avo</button>
+                <button>2B Dep</button>
+                <button>3 Depe</button>
+                <button>4 His</button>
+                <button>5 Nar</button>
+                <button>6A Ant</button>
+                <button>6B Agg</button>
+                <button>7 Com</button>
+                <button>8A P-agg</button>
+                <button>8B Self-D</button>
+                <h4>嚴重人格</h4>
+                <button>S Schi</button>
+                <button>C Bor</button>
+                <button>P Para</button>
+                <h4>臨床症狀</h4>
+                <button>A Anx</button>
+                <button>H Som</button>
+                <button>N Bip</button>
+                <button>D Dys</button>
+                <button>B A Dep.</button>
+                <button>T D Dep.</button>
+                <button>R PTSD</button>
+                <h4>嚴重症狀</h4>
+                <button>SS Thought</button>
+                <button>CC Major D</button>
+                <button>PP Delu</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="workboard">
+        <div class="input">
+            <h3>直接貼上EXCEL表格，請勿直接編輯</h3>
+            <div class="scoreblock">
+                <textarea class="score"></textarea>
+            </div>
+            <button onclick="mcmigogogo()">輸入完成</button>
+            <div style="clear:both"></div>
+        </div>
+        <div class="check" style="display:none">
+            總題數：175<br>
+            有效值：<span class="TotalItems"></span><br>
+            <div class="RawScore">各向度的原始分數：</div>
+        </div>
+        <div style="clear:both"></div>
+    </div>
+
+    <div class="display" style="display:none">
+        <h2 class="subname">subname</h2>
+        <div class="fit">
+            <h3>符合的部分：</h3>
+            <div class="fititems"></div>
+        </div>
+
+        <div class="nofit">
+            <h3>不符合的部分：</h3>
+            <div class="nofititems"></div>
+
+        </div>
+        <div style="clear:both"></div>
+    </div>
+
+    <script src="mcmi.js"></script>
+</body>
+</html>
