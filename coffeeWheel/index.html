@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 30px;
+        }
+        .input{
+            border: black 2px solid;
+            padding: 20px;
+        }
+        button{
+            width: 100px;
+            border:0;
+            background-color: #78C2C4;
+            color: black;
+            border-radius:10px;
+            cursor:pointer;
+            outline: none;
+            margin-top: 4px;
+            margin-bottom: 4px;   
+        }
+        .clickit{
+            background-color: palevioletred;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>咖啡風味輪製作中</h1>
+    </div>
+    <div class="input">
+        <button>紅茶</button>
+        <button>花香</button><br>
+        <button>漿果</button>
+        <button>乾燥水果味</button>
+        <button>其他類水果味</button>
+        <button>柑橘類水果味</button><br>
+        <button>酸味</button>
+        <button>酒精發酵味</button><br>
+        <button>橄欖油味</button>
+        <button>生味</button>
+        <button>植物蔬菜味</button>
+        <button>豆腥味</button><br>
+        <button>紙味霉味</button>
+        <button>化學藥味</button><br>
+        <button>煙絲味</button>
+        <button>煙草味</button>
+        <button>焦味</button>
+        <button>穀類味</button><br>
+        <button>刺激味</button>
+        <button>胡椒味</button>
+        <button>棕色香料味</button><br>
+        <button>堅果味</button>
+        <button>可可味</button><br>
+        <button>紅糖味</button>
+        <button>香草味</button>
+        <button>香蘭素味</button>
+        <button>總體甜味</button>
+        <button>甜香味味</button>
+
+    </div>
+    <div>
+        <h2>結果顯示：</h2>
+        <div class="output"></div>
+    </div>
+    <script>
+
+        var btns = document.querySelectorAll('button');
+        var output = document.querySelector('.output');
+        var arr = [];
+
+        btns.forEach(el=>{
+            el.addEventListener('click',()=>{
+                var tem = el.textContent; //暫時
+
+                if(arr.indexOf(tem)>-1){
+                    arr.splice(arr.indexOf(tem),1);
+                    el.classList.remove('clickit');
+                }else{ //如果還沒有
+                    arr.push(tem);
+                    el.classList.add('clickit');
+                }
+            
+                output.textContent = arr;
+            })
+        })
+
+
+    </script>
+</body>
+</html>
