@@ -59,7 +59,7 @@ tocopen = false
 
   [params.homeInfoParams]
   Title = "Hi there 👋"
-  Content = "Welcome to my blog"
+  Content = "臨床心理師"
 
   [[params.socialIcons]]
   name = "twitter"
