@@ -73,9 +73,6 @@ ShowBreadCrumbs = true
   name = "instagram"
   url = "https://www.instagram.com/bunrealy/"
 
-  [[params.socialIcons]]
-  name = "medium"
-  url = "https://medium.com/@bunreal"
 
 [params.analytics.google]
 SiteVerificationTag = "XYZabc"
