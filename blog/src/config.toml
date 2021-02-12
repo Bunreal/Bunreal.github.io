@@ -91,6 +91,12 @@ SiteVerificationTag = "XYZabc"
   keys = [ "title", "permalink", "summary", "content" ]
 
 [[menu.main]]
+identifier = "archives"
+name = "archives"
+url = "/archives/"
+weight = 10
+
+[[menu.main]]
 identifier = "categories"
 name = "categories"
 url = "/categories/"
