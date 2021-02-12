@@ -26,8 +26,8 @@ ShowShareButtons = false
 disableSpecial1stPost = false
 comments = true
 hidemeta = false
-showtoc = false
-tocopen = false
+showtoc = true
+tocopen = true
 
   [params.assets]
   favicon = "<link / abs url>"
