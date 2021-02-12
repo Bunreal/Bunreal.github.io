@@ -31,7 +31,7 @@ comments = true
 hidemeta = false
 showtoc = true
 tocopen = false
-ShowBreadCrumbs = true
+ShowBreadCrumbs = false
 
   [params.assets]
   favicon = "<link / abs url>"
@@ -113,4 +113,4 @@ weight = 10
 identifier = "search"
 name = "Search"
 url = "/search/"
-weight = 10
+weight = 20
