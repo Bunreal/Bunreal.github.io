@@ -3,7 +3,6 @@ title: "Start"
 date: 2021-02-12T15:19:21+08:00
 draft: false
 ---
----
 
 # Start
 
@@ -36,13 +35,14 @@ Syntax highlight is supported with the language specified after the first set of
 
 ```js
 function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
+  if (arg) {
+    $.facebox({ div: "#foo" });
   }
 }
 ```
 
-Text indented with a tab is formatted like this, and will also look like a code block in preview. 
+Text indented with a tab is formatted like this, and will also look like a code block in preview.
+
 ### Task list
 
 - [ ] [links](), **formatting** supported
@@ -55,10 +55,9 @@ Text indented with a tab is formatted like this, and will also look like a code 
 
 You can create tables by assembling a list of words and dividing them with hyphens `-` (for the first row), and then separating each column with a pipe `|`:
 
-
-| First Header | Second Header |
-| - | - |
-| Content from cell 1 | Content from cell 2 |
+| First Header                | Second Header                |
+| --------------------------- | ---------------------------- |
+| Content from cell 1         | Content from cell 2          |
 | Content in the first column | Content in the second column |
 
 ### Footnotes
@@ -82,11 +81,10 @@ Embed another file (read more about [[Embed files]]).
 ![[Obsidian]]
 
 [^1]: meaningful!
-    
 [^bignote]: Here's one with multiple paragraphs and code.
-    
+
     Indent paragraphs to include them in the footnote.
-    
+
     `{ my code }`
-    
+
     Add as many paragraphs as you like.
