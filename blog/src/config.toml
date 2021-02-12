@@ -62,16 +62,16 @@ tocopen = false
   Content = "一位在彰化工作的台中人，計畫養成新的寫作習慣，寫自己覺得重要的或是喜歡的事"
 
   [[params.socialIcons]]
-  name = "twitter"
-  url = "https://twitter.com/"
+  name = "facebook"
+  url = "https://www.facebook.com/bunreal.young"
 
   [[params.socialIcons]]
-  name = "stackoverflow"
-  url = "https://stackoverflow.com"
+  name = "instagram"
+  url = "https://www.instagram.com/bunrealy/"
 
   [[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/"
+  name = "medium"
+  url = "https://medium.com/@bunreal"
 
 [params.analytics.google]
 SiteVerificationTag = "XYZabc"
