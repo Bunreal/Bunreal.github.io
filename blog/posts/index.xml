@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Bunreal</title>
+    <title>Posts on IAMBunreal</title>
     <link>https://bunreal.github.io/blog/posts/</link>
-    <description>Recent content in Posts on Bunreal</description>
+    <description>Recent content in Posts on IAMBunreal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 12 Feb 2021 15:19:21 +0800</lastBuildDate><atom:link href="https://bunreal.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://bunreal.github.io/blog/posts/my-first-post/</link>
+      <pubDate>Fri, 12 Feb 2021 15:19:21 +0800</pubDate>
+      
+      <guid>https://bunreal.github.io/blog/posts/my-first-post/</guid>
+      <description>test</description>
+    </item>
+    
     <item>
       <title>Start</title>
       <link>https://bunreal.github.io/blog/posts/guildlines-to-start/</link>
