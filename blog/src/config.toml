@@ -107,7 +107,7 @@ weight = 10
 identifier = "tags"
 name = "Tags"
 url = "/tags/"
-weight = 20
+weight = 10
 
 [[menu.main]]
 identifier = "search"
