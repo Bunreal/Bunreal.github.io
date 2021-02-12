@@ -5,10 +5,7 @@ draft: false
 
 tags: ["say"]
 
-cover:
-  image: "<image path/url>" # image path/url
-  alt: "<alt text>" # alt text
-  caption: "test" # display caption under cover
+
 ---
 
 # 新年快樂
