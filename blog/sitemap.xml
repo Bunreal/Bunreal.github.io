@@ -3,19 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://bunreal.github.io/blog/posts/guildlines-to-start/</loc>
-  </url>
-  
-  <url>
-    <loc>https://bunreal.github.io/blog/categories/</loc>
-  </url>
-  
-  <url>
     <loc>https://bunreal.github.io/blog/</loc>
+    <lastmod>2021-02-12T15:19:21+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://bunreal.github.io/blog/posts/</loc>
+    <lastmod>2021-02-12T15:19:21+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bunreal.github.io/blog/posts/guildlines-to-start/</loc>
+    <lastmod>2021-02-12T15:19:21+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bunreal.github.io/blog/categories/</loc>
   </url>
   
   <url>

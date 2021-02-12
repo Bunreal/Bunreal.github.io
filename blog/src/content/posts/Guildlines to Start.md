@@ -1,3 +1,10 @@
+---
+title: "Start"
+date: 2021-02-12T15:19:21+08:00
+draft: false
+---
+---
+
 # Start
 
 `Hello World`
@@ -21,8 +28,7 @@ http://obsidian.md - automatic!
 
 ### Inline code
 
-Text inside `backticks` on a line will be formatted like code. 
-
+Text inside `backticks` on a line will be formatted like code.
 
 ### Code blocks
 
@@ -35,9 +41,8 @@ function fancyAlert(arg) {
   }
 }
 ```
-    
-    Text indented with a tab is formatted like this, and will also look like a code block in preview. 
-    
+
+Text indented with a tab is formatted like this, and will also look like a code block in preview. 
 ### Task list
 
 - [ ] [links](), **formatting** supported
@@ -46,29 +51,19 @@ function fancyAlert(arg) {
 - [ ] this is an incomplete item
 - [ ] tasks can be clicked in Preview to be checked off
 
-
 ### Tables
 
 You can create tables by assembling a list of words and dividing them with hyphens `-` (for the first row), and then separating each column with a pipe `|`:
 
-First Header | Second Header
------------- | ------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+
+| First Header | Second Header |
+| - | - |
+| Content from cell 1 | Content from cell 2 |
+| Content in the first column | Content in the second column |
 
 ### Footnotes
 
 Here's a simple footnote,[^1] and here's a longer one.[^bignote]
-
-[^1]: meaningful!
-
-[^bignote]: Here's one with multiple paragraphs and code.
-
-    Indent paragraphs to include them in the footnote.
-
-    `{ my code }`
-
-    Add as many paragraphs as you like.
 
 You can also use inline footnotes. ^[notice that the carat goes outside of the brackets on this one.]
 
@@ -85,3 +80,13 @@ Link to a page: [[Internal link]].
 Embed another file (read more about [[Embed files]]).
 
 ![[Obsidian]]
+
+[^1]: meaningful!
+    
+[^bignote]: Here's one with multiple paragraphs and code.
+    
+    Indent paragraphs to include them in the footnote.
+    
+    `{ my code }`
+    
+    Add as many paragraphs as you like.
