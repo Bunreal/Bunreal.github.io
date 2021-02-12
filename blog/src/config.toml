@@ -9,6 +9,9 @@ buildFuture = false
 buildExpired = false
 googleAnalytics = "UA-123-45"
 
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
 [minify]
 disableXML = true
 minifyOutput = true
