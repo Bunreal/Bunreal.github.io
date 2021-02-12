@@ -4,13 +4,11 @@ date: 2021-02-12T22:36:55+08:00
 draft: false
 
 tags: ["say"]
-categories: ["test"]
-hidemeta: false
-comments: false
-disableHLJS: true # to disable highlightjs
-disableShare: false
-disableHLJS: false
 
+cover:
+  image: "<image path/url>" # image path/url
+  alt: "<alt text>" # alt text
+  caption: "test" # display caption under cover
 ---
 
 # 新年快樂
