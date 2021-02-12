@@ -30,7 +30,8 @@ disableSpecial1stPost = false
 comments = true
 hidemeta = false
 showtoc = true
-tocopen = true
+tocopen = false
+ShowBreadCrumbs = true
 
   [params.assets]
   favicon = "<link / abs url>"
