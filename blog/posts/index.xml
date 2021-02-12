@@ -6,28 +6,15 @@
     <description>Recent content in Posts on bComingB</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Feb 2021 16:19:21 +0800</lastBuildDate><atom:link href="https://bunreal.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Feb 2021 22:36:55 +0800</lastBuildDate><atom:link href="https://bunreal.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>https://bunreal.github.io/blog/posts/my-first-post/</link>
-      <pubDate>Fri, 12 Feb 2021 16:19:21 +0800</pubDate>
+      <title>NewYear</title>
+      <link>https://bunreal.github.io/blog/posts/newyear/</link>
+      <pubDate>Fri, 12 Feb 2021 22:36:55 +0800</pubDate>
       
-      <guid>https://bunreal.github.io/blog/posts/my-first-post/</guid>
-      <description>test tttt </description>
-    </item>
-    
-    <item>
-      <title>Start</title>
-      <link>https://bunreal.github.io/blog/posts/guildlines-to-start/</link>
-      <pubDate>Fri, 12 Feb 2021 15:19:21 +0800</pubDate>
-      
-      <guid>https://bunreal.github.io/blog/posts/guildlines-to-start/</guid>
-      <description>Start Hello World
-Format Images Links http://obsidian.md - automatic! Obsidian
-Blockquotes  Human beings face ever more complex and urgent problems, and their effectiveness in dealing with these problems is a matter that is critical to the stability and continued progress of society.
- - Doug Engelbart, 1961
-Inline code Text inside backticks on a line will be formatted like code.
-Code blocks Syntax highlight is supported with the language specified after the first set of backticks.</description>
+      <guid>https://bunreal.github.io/blog/posts/newyear/</guid>
+      <description>新年快樂 開個頭 趁著農曆新年的第一天，我決定開始新的寫作習慣，使自己在現有的思考習慣與行動模式之外會有另一種積極的選擇。最近有一個心得：不論是臨床工作或者是學習新技能，很重要的一點是要能夠持續不斷的嘗試，如此一來，會有機會實行照護的邏輯，會有機會開展對話，會有機會得到不一樣的經驗。 祝福大家新年平安快樂。
+之後的內容會包括 心理健康資訊分享，以及在學習前端路上的自主練習等等。</description>
     </item>
     
   </channel>
