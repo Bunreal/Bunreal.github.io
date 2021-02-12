@@ -5,15 +5,19 @@
     <link>https://bunreal.github.io/blog/posts/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 12 Feb 2021 15:19:21 +0800</lastBuildDate><atom:link href="https://bunreal.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://bunreal.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>https://bunreal.github.io/blog/posts/my-first-post/</link>
-      <pubDate>Fri, 12 Feb 2021 15:19:21 +0800</pubDate>
+      <title></title>
+      <link>https://bunreal.github.io/blog/posts/guildlines-to-start/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bunreal.github.io/blog/posts/my-first-post/</guid>
-      <description></description>
+      <guid>https://bunreal.github.io/blog/posts/guildlines-to-start/</guid>
+      <description>Start Hello World
+Format Images Links http://obsidian.md - automatic! Obsidian
+Blockquotes  Human beings face ever more complex and urgent problems, and their effectiveness in dealing with these problems is a matter that is critical to the stability and continued progress of society.
+ - Doug Engelbart, 1961
+Inline code Text inside backticks on a line will be formatted like code.
+Code blocks Syntax highlight is supported with the language specified after the first set of backticks.</description>
     </item>
     
   </channel>
