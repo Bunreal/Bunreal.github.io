@@ -62,7 +62,7 @@ ShowBreadCrumbs = true
     url = "tags"
 
   [params.homeInfoParams]
-  Title = "Hi, I'm Bunreal👋"
+  Title = "Hi, I'm Bunreal 👋"
   Content = "一位在彰化工作的台中人，計畫養成新的寫作習慣，寫自己覺得重要的或是喜歡的事"
 
   [[params.socialIcons]]
