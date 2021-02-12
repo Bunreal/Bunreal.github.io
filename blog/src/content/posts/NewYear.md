@@ -4,6 +4,7 @@ date: 2021-02-12T22:36:55+08:00
 draft: false
 
 tags: ["say"]
+categories: ["test"]
 hidemeta: false
 comments: false
 disableHLJS: true # to disable highlightjs
