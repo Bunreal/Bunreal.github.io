@@ -114,3 +114,6 @@ identifier = "search"
 name = "Search"
 url = "/search/"
 weight = 20
+
+
+disqusShortname = "Bunrealy"
