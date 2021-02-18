@@ -36,10 +36,7 @@
   <div class="post-content">
     {{- partial "anchored_headings.html" .Content -}}
   </div>
-  <div class="disqus markdown">
-    {{ partial "disqus.html" . }}
-  </div>
-  
+
   <footer class="post-footer">
     {{- if .Params.tags }}
     <ul class="post-tags">
@@ -73,6 +70,10 @@
     {{- partial "share_icons.html" . }}
     {{- end }}
   </footer>
+
+  <div class="disqus markdown">
+    {{ template "_internal/disqus.html" . }}
+  </div>
 
   {{- if (.Param "comments") }}
   {{- partial "comments.html" . }}
