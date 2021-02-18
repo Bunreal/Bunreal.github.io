@@ -34,6 +34,8 @@ hidemeta = false
 showtoc = true
 tocopen = false
 ShowBreadCrumbs = false
+ShowPostNavLinks= true
+
 
   [params.assets]
   favicon = "<link / abs url>"
