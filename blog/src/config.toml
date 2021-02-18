@@ -9,6 +9,8 @@ buildFuture = false
 buildExpired = false
 googleAnalytics = "UA-123-45"
 
+disqusShortname = "Bunrealy"
+
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
 
@@ -90,9 +92,6 @@ SiteVerificationTag = "XYZabc"
   threshold = 0.4
   minMatchCharLength = 0
   keys = [ "title", "permalink", "summary", "content" ]
-
-disqusShortname = "Bunrealy"
-
 
 [[menu.main]]
 identifier = "archives"
