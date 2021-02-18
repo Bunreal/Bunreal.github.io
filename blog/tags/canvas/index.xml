@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>canvas on bComingB</title>
+    <link>https://bunreal.github.io/blog/tags/canvas/</link>
+    <description>Recent content in canvas on bComingB</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Feb 2021 00:34:45 +0800</lastBuildDate><atom:link href="https://bunreal.github.io/blog/tags/canvas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GoToSea</title>
+      <link>https://bunreal.github.io/blog/posts/gotosea/</link>
+      <pubDate>Fri, 19 Feb 2021 00:34:45 +0800</pubDate>
+      
+      <guid>https://bunreal.github.io/blog/posts/gotosea/</guid>
+      <description>canvas小練習</description>
+    </item>
+    
+  </channel>
+</rss>

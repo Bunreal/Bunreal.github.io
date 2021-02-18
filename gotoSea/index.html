@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>去看海</title>
+    <style>
+        body {
+            margin: 50px;
+        }
+        canvas {
+            border:4px solid #000000;
+            background-color: white;
+        }
+    </style>
+</head>
+<body onload="startTrip()">
+    <!--
+    <h1>
+        走一千公尺去看海
+    </h1>
+    <h4>
+        只要前進就可以看到海
+    </h4>
+    -->
+
+    <script>
+        var myobj;
+        var wayobj = []; // 把路上的數目加進這個陣列
+        var scene; // 最後的海
+        var distanceLeft;
+        var num = 100;
+        var stopobj;
+
+        function startTrip(){
+            // 創造物件
+            myobj = new component(60, 60, 'car.png', 230, 360,'image'); // 創造自己
+            distanceLeft = new component("30px", "Consolas", "black", 100,450,"text"); // 創造距離倒數板
+            tripArea.start();  // 創造遊戲平台
+        }
+
+        // 主畫面平台的設定
+        var tripArea = {
+            canvas : document.createElement("canvas"),
+            start : function() {
+        			this.canvas.width = 500;
+     		    	this.canvas.height = 500;
+     		    	this.context = this.canvas.getContext("2d");
+     		    	
+                    document.body.insertBefore(this.canvas, document.body.childNodes[0]);
+     		    	this.frameNo = 0;
+     		    	this.interval = setInterval(updateTripArea, 300);
+            }, 
+            clear : function(){
+                this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
+            },
+            stop : function(){
+                clearInterval(this.interval);
+                alert("Here u are");
+            }
+        }
+
+        function component(width, height, color, x, y, type) {
+            this.type = type;
+            if (type =='image'){
+                this.image = new Image();
+                this.image.src = color;
+            }
+            this.width = width;
+            this.height = height;
+            this.x = x;
+            this.y = y;    
+            this.update = function() {
+                ctx = tripArea.context;
+                //改變type
+                if (this.type == "image"){
+                    ctx.drawImage(this.image, this.x, this.y,this.width, this.height);
+                }
+                else if (this.type == "text"){
+                    ctx.font = this.width + " " + this.height;
+                    ctx.fillStyle = color;
+                    ctx.fillText(this.text,this.x,this.y);
+                } else{
+                    ctx.fillStyle = color;
+                    ctx.fillRect(this.x, this.y, this.width, this.height);
+                }
+            }
+        }
+
+        var time = 0;
+        var movespeed = 20;
+        var removearray = [];
+        // 每次更新要改變什麼
+        function updateTripArea(){
+            tripArea.clear();
+
+            if (num>45){
+                // 生成一個東西逆向跑
+                // 生成不要每秒生
+                if (time === 0 ){
+                    time = Math.floor(Math.random()*3)+2; // 2-4
+                }else{
+                    time -=1;
+                }
+                // 生成
+                if(time === 0){
+                    var x = Math.floor(Math.random()*15)*10;
+                    var y = Math.floor(Math.random()*2);
+                    if(y===0){
+                        x = x + 290;
+                    }
+                    wayobj.push(new component(70,70, 'tree.png',x,-20,'image'));
+                }
+            }
+
+            //移動
+            for(var i = 0; i<wayobj.length;i++){
+                wayobj[i].update();
+                if(num>20){
+                    wayobj[i].y += movespeed;
+                }else{
+                    wayobj[i].y += movespeed/3;
+                }     
+                if (wayobj[i].y > 500){
+                    removearray = wayobj.shift();
+                    i -=1;
+                }
+            }
+            myobj.update();
+            if(num===20){
+                stopobj = new component(500, 500, 'https://images.pexels.com/photos/1835712/pexels-photo-1835712.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260', 0, -400,'image'); // 停止的指示
+            }
+            if(num<=20){
+                stopobj.update();
+                myobj.y += movespeed/3;
+                stopobj.y += movespeed;
+            }
+            if(num===0){
+                distanceLeft.text = '我們到了！';                
+            }else{
+                distanceLeft.text = '剩下 '+num + ' 公里';
+            }
+            distanceLeft.update();
+
+            if(num===0){
+                clearInterval(tripArea.interval);
+            }
+            tripArea.frameNo +=1;
+            num -= 1;
+        }
+    </script>
+</body>
+</html>
