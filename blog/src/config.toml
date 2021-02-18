@@ -33,9 +33,6 @@ showtoc = true
 tocopen = false
 ShowBreadCrumbs = false
 
-disqusShortname = "Bunrealy"
-
-
   [params.assets]
   favicon = "<link / abs url>"
   favicon16x16 = "<link / abs url>"
@@ -93,6 +90,9 @@ SiteVerificationTag = "XYZabc"
   threshold = 0.4
   minMatchCharLength = 0
   keys = [ "title", "permalink", "summary", "content" ]
+
+disqusShortname = "Bunrealy"
+
 
 [[menu.main]]
 identifier = "archives"
