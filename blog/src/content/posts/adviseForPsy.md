@@ -31,15 +31,15 @@ comments: true
 
 ### 有些人以為的流程
 
-![pic](https://i.imgur.com/2BF8eZP.png){ width: 200px; }
+![pic](https://i.imgur.com/2BF8eZP.png =250x)
 
 ### 自費心理治療，舉例：
 
-![pic](https://i.imgur.com/UQuglhG.png){ width: 200px; }
+![pic](https://i.imgur.com/UQuglhG.png =250x)
 
 ### 健保心理治療，以彰化基督教醫院為例：
 
-![pic](https://i.imgur.com/AQrdWHS.png){ height: 200px; }
+![pic](https://i.imgur.com/AQrdWHS.png =250x)
 
 ## 有沒有推薦的診所或是治療師？
 
