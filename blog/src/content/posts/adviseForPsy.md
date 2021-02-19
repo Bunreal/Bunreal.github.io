@@ -31,15 +31,15 @@ comments: true
 
 ### 有些人以為的流程
 
-![pic](https://i.imgur.com/2BF8eZP.png =250x)
+![pic](https://i.imgur.com/2BF8eZP.png)
 
 ### 自費心理治療，舉例：
 
-![pic](https://i.imgur.com/UQuglhG.png =250x)
+![pic](https://i.imgur.com/UQuglhG.png)
 
 ### 健保心理治療，以彰化基督教醫院為例：
 
-![pic](https://i.imgur.com/AQrdWHS.png =250x)
+![pic](https://i.imgur.com/AQrdWHS.png)
 
 ## 有沒有推薦的診所或是治療師？
 
@@ -55,12 +55,12 @@ comments: true
 
 ### 台灣精神科診所地圖
 
-![pic|400](https://i.imgur.com/HHzldTL.png)
+![pic](https://i.imgur.com/HHzldTL.png)
 [連結](https://www.google.com/maps/d/viewer?hl=zh-TW&mid=1rjpodoCNnSWDCBGolZ1NVeHRSdw&ll=24.149686617766797%2C120.68092618305724&z=12)
 
 ### 心快活-心據點
 
-![pic|400](https://i.imgur.com/NC7YjWm.png)
+![pic](https://i.imgur.com/NC7YjWm.png)
 [連結](https://wellbeing.mohw.gov.tw/nor/mmap)
 
 ## 我有什麼其他建議或是提醒？
