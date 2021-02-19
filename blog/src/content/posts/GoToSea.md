@@ -15,7 +15,7 @@ comments: true
 
 ## 連結
 
-[GoToSea](https://bunreal.github.io/gotoSea)
+[去看海](https://bunreal.github.io/gotoSea)
 
 ## 製作筆記
 
