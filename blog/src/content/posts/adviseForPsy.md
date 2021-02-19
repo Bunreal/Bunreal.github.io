@@ -8,8 +8,6 @@ tags: ["Psychotherapy"]
 comments: true
 ---
 
-# 給正考慮接受心理治療的人的建議
-
 作為一個臨床工作快滿兩年的人，這篇是希望給有意願做心理治療但還沒開始的人一點提醒或建議。
 
 ## 心理治療在做什麼？
@@ -30,15 +28,15 @@ comments: true
 
 ### 有些人以為的流程
 
-(img)
+![pic|400](https://i.imgur.com/2BF8eZP.png)
 
 ### 自費心理治療，舉例：
 
-(img)
+![pic|400](https://i.imgur.com/UQuglhG.png)
 
 ### 健保心理治療，以彰化基督教醫院為例：
 
-(img)
+![pic|400](https://i.imgur.com/AQrdWHS.png)
 
 ## 有沒有推薦的診所或是治療師？
 
@@ -54,13 +52,13 @@ comments: true
 
 ### 台灣精神科診所地圖
 
-![pic](https://i.imgur.com/HHzldTL.png)
-[連結]
+![pic|400](https://i.imgur.com/HHzldTL.png)
+[連結](https://www.google.com/maps/d/viewer?hl=zh-TW&mid=1rjpodoCNnSWDCBGolZ1NVeHRSdw&ll=24.149686617766797%2C120.68092618305724&z=12)
 
 ### 心快活-心據點
 
-![pic](https://i.imgur.com/NC7YjWm.png)
-[連結]
+![pic|400](https://i.imgur.com/NC7YjWm.png)
+[連結](https://wellbeing.mohw.gov.tw/nor/mmap)
 
 ## 我有什麼其他建議或是提醒？
 
