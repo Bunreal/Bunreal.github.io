@@ -6,6 +6,12 @@ summary: "關於心理治療的幾件事"
 categories: ["Psy"]
 tags: ["Psychotherapy"]
 comments: true
+cover:
+  image: "<https://i.imgur.com/2BF8eZP.png>" # image path/url
+  alt: "<alt text>" # alt text
+  caption: "<text>" # display caption under cover
+  relative: false # when using page bundles set this to true
+  hidden: true # only hide on current single page
 ---
 
 作為一個臨床工作快滿兩年的人，這篇是希望給有意願做心理治療但還沒開始的人一點提醒或建議。
