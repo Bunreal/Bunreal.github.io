@@ -7,7 +7,7 @@ categories: ["Psy"]
 tags: ["Psychotherapy"]
 comments: true
 cover:
-  image: "<https://i.imgur.com/2BF8eZP.png>" # image path/url
+  image: "https://i.imgur.com/2BF8eZP.png" # image path/url
   alt: "<alt text>" # alt text
   caption: "<text>" # display caption under cover
   relative: false # when using page bundles set this to true
