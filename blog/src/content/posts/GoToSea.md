@@ -2,7 +2,7 @@
 title: "走一百公里去看海"
 date: 2021-02-19T00:34:45+08:00
 draft: false
-summary: "`canvas`與`setInterval()`的小小練習"
+summary: "`<canvas>`與`setInterval()`的小小練習"
 categories: ["Code"]
 tags: ["canvas"]
 comments: true
@@ -21,13 +21,13 @@ comments: true
 
 ### 原先目標
 
-- 複習 HTML 的 `canvas` 跟 Javascript 的 `setInterval()`。
+- 複習 HTML 的 `<canvas>` 跟 Javascript 的 `setInterval()`。
 - 藉這個機會，熟悉 Markdown 在網站上的呈現。
 - 藉這個機會，調整或熟悉這個網站的功能，以及要用什麼步調去使用他。
 
 ### 對我而言，較大的挑戰是
 
-我本來想要針對海找適合的 GIF，但發現用`canvas`呈現 GIF 跟呈現 image 完全是不同的複雜程度，爬文後猜測可能要使用 Gifler 或是調整一大堆的參數，但這已經超過了我本來的目標，所以我就調整了原先計畫。
+我本來想要針對海找適合的 GIF，但發現用`<canvas>`呈現 GIF 跟呈現 image 完全是不同的複雜程度，爬文後猜測可能要使用 Gifler 或是調整一大堆的參數，但這已經超過了我本來的目標，所以我就調整了原先計畫。
 
 ### 結束後心得
 

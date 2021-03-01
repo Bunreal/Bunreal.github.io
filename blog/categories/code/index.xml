@@ -6,14 +6,23 @@
     <description>Recent content in Code on bComingB</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Feb 2021 00:34:45 +0800</lastBuildDate><atom:link href="https://bunreal.github.io/blog/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Mar 2021 21:01:47 +0800</lastBuildDate><atom:link href="https://bunreal.github.io/blog/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>用雷達圖紀錄咖啡味道</title>
+      <link>https://bunreal.github.io/blog/posts/caferadar/</link>
+      <pubDate>Mon, 01 Mar 2021 21:01:47 +0800</pubDate>
+      
+      <guid>https://bunreal.github.io/blog/posts/caferadar/</guid>
+      <description>為了紀錄咖啡風味，練習用&lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt;做雷達圖，然後也試著搭配 Chart.js 做一個更好看的版本。</description>
+    </item>
+    
     <item>
       <title>走一百公里去看海</title>
       <link>https://bunreal.github.io/blog/posts/gotosea/</link>
       <pubDate>Fri, 19 Feb 2021 00:34:45 +0800</pubDate>
       
       <guid>https://bunreal.github.io/blog/posts/gotosea/</guid>
-      <description>&lt;code&gt;canvas&lt;/code&gt;與&lt;code&gt;setInterval()&lt;/code&gt;的小小練習</description>
+      <description>&lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt;與&lt;code&gt;setInterval()&lt;/code&gt;的小小練習</description>
     </item>
     
   </channel>
