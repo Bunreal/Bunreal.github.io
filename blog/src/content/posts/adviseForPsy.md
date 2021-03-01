@@ -4,7 +4,7 @@ date: 2021-02-19T22:09:33+08:00
 draft: false
 summary: "關於心理治療的幾件事"
 categories: ["Psy"]
-tags: ["Psychotherapy"]
+tags: ["psychotherapy"]
 comments: true
 cover:
   image: "https://i.imgur.com/2BF8eZP.png" # image path/url

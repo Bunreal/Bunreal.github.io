@@ -4,7 +4,7 @@ date: 2021-03-01T21:01:47+08:00
 draft: false
 summary: "為了紀錄咖啡風味，練習用`<canvas>`做雷達圖，然後也試著搭配 Chart.js 做一個更好看的版本。"
 categories: ["Code"]
-tags: ["canvas", "chartjs"]
+tags: ["canvas", "Chart.js"]
 comments: true
 cover:
   image: "https://i.imgur.com/aMmPgZF.png" # image path/url
@@ -50,4 +50,5 @@ cover:
 ## 製作後心得
 
 一開始我使用純 `<canvas>`摸索，但需要完成的工作包括：用到三角函數、每個圖形元素都要個別製作等等，以致在製作前要精打細算，而且沒辦法輕鬆切換成不同邊形，結果，用 Chart.js 就輕鬆做到我原先做的事，更有效率且圖形更美！
+
 回到最初的製作目的，本來是為了記錄咖啡風味，但做好之後這個使用習慣並沒有維持很久，原因是嘗試過一陣子後，發現幾個軸度的量化計分並沒有很適合我，就算換成了網路上其他版本亦然，也許我會再試試看質性的紀錄一陣子！
