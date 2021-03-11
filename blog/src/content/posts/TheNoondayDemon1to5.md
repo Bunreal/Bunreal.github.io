@@ -6,6 +6,8 @@ summary: "我目前的閱讀進度是第5章完，這篇文章是我的部分筆
 categories: ["Psy"]
 tags: ["book"]
 comments: true
+cover:
+  image: "https://i.imgur.com/rOLMCQG.png" # image path/url
 ---
 
 我目前的閱讀進度是第 5 章完，決定稍微紀錄，但此文並不是摘要，只是我的部分筆記與心得。
