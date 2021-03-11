@@ -3,6 +3,7 @@ title: "《正午惡魔》第1~5章筆記"
 date: 2021-03-11T21:06:49+08:00
 draft: false
 summary: "我目前的閱讀進度是第5章完，這篇文章是我的部分筆記與心得。"
+categories: ["Psy"]
 tags: ["book"]
 comments: true
 ---

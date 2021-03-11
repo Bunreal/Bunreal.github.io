@@ -13,7 +13,17 @@
   </url>
   
   <url>
+    <loc>https://bunreal.github.io/blog/categories/</loc>
+    <lastmod>2021-03-11T21:06:49+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bunreal.github.io/blog/posts/</loc>
+    <lastmod>2021-03-11T21:06:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bunreal.github.io/blog/categories/psy/</loc>
     <lastmod>2021-03-11T21:06:49+08:00</lastmod>
   </url>
   
@@ -33,11 +43,6 @@
   </url>
   
   <url>
-    <loc>https://bunreal.github.io/blog/categories/</loc>
-    <lastmod>2021-03-01T21:01:47+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://bunreal.github.io/blog/tags/chart.js/</loc>
     <lastmod>2021-03-01T21:01:47+08:00</lastmod>
   </url>
@@ -50,11 +55,6 @@
   <url>
     <loc>https://bunreal.github.io/blog/posts/caferadar/</loc>
     <lastmod>2021-03-01T21:01:47+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bunreal.github.io/blog/categories/psy/</loc>
-    <lastmod>2021-02-19T22:09:33+08:00</lastmod>
   </url>
   
   <url>
