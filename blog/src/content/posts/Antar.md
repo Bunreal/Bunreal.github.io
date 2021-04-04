@@ -30,21 +30,21 @@ cover:
 
 #### 1. 一般模式
 
-##### 說明：
+**說明：**
 
 隨時都可以開啟一個新的話題，在聊天室裡，或者說是一個自我對話的空間裡，每一次發言，都可以選擇角色，角色可以是「Me」，也可以是任何一種情緒或狀態。而「Me」和其他種狀態的聲音，共同構成了這次的自我對話。
 
 一個典型的用法是：由「Me」啟動這次對話，角色像是會議主持人，接著，不同的情緒或是內在狀態開始交流、互動，最後再由「Me」做一個總結。
 
-##### 範例：週日的晚上覺得很煩躁
+**範例：週日的晚上覺得很煩躁**
 
-<img src="https://i.imgur.com/xbzwQQ0.png" alt="xbzwQQ0" style="zoom:40%;" />
+![xbzwQQ0](https://i.imgur.com/xbzwQQ0.png)
 
 也可以視覺化成這樣：
 
-<img src="https://i.imgur.com/uUvwIcM.jpg" alt="uUvwIcM" style="zoom:40%;" />
+![uUvwIcM](https://i.imgur.com/uUvwIcM.jpg)
 
-##### 官方範例：伴侶衝突
+**官方範例：伴侶衝突**
 
 ![lpNqRoI](https://i.imgur.com/lpNqRoI.png)
 
@@ -54,13 +54,13 @@ cover:
 
 #### 2. Let it go 模式
 
-##### 說明：
+**說明：**
 
 取蒲公英為含義，這個模式不會留存紀錄，每一句打出的話都會飛走，變得越來越小，直到看不見。對於有些平常說不出的話但是又想要私底下大聲罵，也許會適合這個模式？
 
 雖然可能不實用，但不可否認，是一個很有趣的模式。
 
-##### 範例：
+**範例：**
 
 ![oUYKRET](https://i.imgur.com/oUYKRET.png)
 
