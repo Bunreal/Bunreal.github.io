@@ -10,7 +10,7 @@ cover:
   image: "https://play-lh.googleusercontent.com/Lx6FkHE8J2UxaMSiC6rZcCH6ornY7dTQmGE39oADR-w1dDT5G4fpZ_14EM4F9U-7FYs=s360" # image path/url
 ---
 
-趁著連假，我想要分享一個非常特別的聊天 App，之所以這麼說，是因為 Antar 的 App 介面雖然（看似在）聊天，但是離線使用，而且沒有其他人會參與聊天，甚至沒有自己以外的其他東西會出現。
+趁著連假，我想要分享一個非常特別的聊天 App，之所以這麼說，是因為 Antar 的介面（看似）是聊天 App，但是離線使用，而且沒有其他人會參與聊天，甚至沒有自己以外的其他東西會出現。
 
 由於以上原因，我覺得 Antar 其實很怪異，而且很多人應該不會想要使用，或覺得並不需要，但是，我仍然覺得它是有用的，至少在某個特別的情境對於某些人來說是這樣。我會說我的理由。
 
