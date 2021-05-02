@@ -1,0 +1,28 @@
+{
+    "工作表1": [
+        {
+            "name": "三分鐘呼吸空間",
+            "image": "img1",
+            "audio": "aud1",
+            "des": "簡單說明",
+            "srcNAME": "桃園市臨床心理師公會",
+            "srcURL": "https://www.taoyuanpsy.url.tw/hot_383282.html"
+        },
+        {
+            "name": "呼吸覺察",
+            "image": "img2",
+            "audio": "aud2",
+            "des": "簡單說明",
+            "srcNAME": "桃園市臨床心理師公會",
+            "srcURL": "https://www.taoyuanpsy.url.tw/hot_383282.html"
+        },
+        {
+            "name": "自我暗示放鬆",
+            "image": "img3",
+            "audio": "aud3",
+            "des": "簡單說明",
+            "srcNAME": "台大醫院臨床心理中心",
+            "srcURL": "https://www.ntuh.gov.tw/CPC/Download.action?q_type=A02&agroup=a#top"
+        }
+    ]
+}

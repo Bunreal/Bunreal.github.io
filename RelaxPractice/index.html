@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daily Relaxation Techniques</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700&display=swap');
+
+        body{
+            background-color: white;
+            font-family: 'Noto Serif TC', serif;
+        }
+        
+        a {
+            text-decoration:none;
+            color:rgb(67, 149, 187);
+        }
+
+
+        .mybtn{
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            border: 2px solid black;
+        }
+
+        .mybtn:disabled{
+            background-color: rgb(161, 161, 161);
+            border: 2px solid rgb(161, 161, 161);
+        }
+
+        .modal-dialog {
+            max-width: 400px;
+            margin: 1.75rem auto;
+        }
+
+    </style>
+    <script>
+        // 處理暫時的json檔案作為測試用
+        var falsejson = {
+            "工作表1": [
+                {
+                    "name": "三分鐘呼吸空間",
+                    "image": "img1",
+                    "audio": "aud1",
+                    "des": "簡單說明",
+                    "srcNAME": "桃園市臨床心理師公會",
+                    "srcURL": "https://www.taoyuanpsy.url.tw/hot_383282.html"
+                },
+                {
+                    "name": "呼吸覺察",
+                    "image": "img2",
+                    "audio": "aud2",
+                    "des": "簡單說明",
+                    "srcNAME": "桃園市臨床心理師公會",
+                    "srcURL": "https://www.taoyuanpsy.url.tw/hot_383282.html"
+                },
+                {
+                    "name": "自我暗示放鬆",
+                    "image": "img3",
+                    "audio": "aud3",
+                    "des": "簡單說明",
+                    "srcNAME": "台大醫院臨床心理中心",
+                    "srcURL": "https://www.ntuh.gov.tw/CPC/Download.action?q_type=A02&agroup=a#top"
+                }
+            ]
+        }   
+        var falsejson1 = falsejson.工作表1;
+    </script>
+</head>
+<body>
+    <div class="container px-5 py-3">
+        <h1 style="font-weight: bold;">Daily Relaxation Techniques</h1>
+        <br>
+        <!-- 注意與說明事項 -->
+        <button type="button" class="mybtn" data-toggle="modal" data-target="#myModal0">About</button>
+        <button type="button" class="mybtn" onclick="playAudio()" disabled id="playAudio">Play</button>
+        <button type="button" class="mybtn" onclick="pauseAudio()" disabled id="pauseAudio">Pause</button>
+        <div class="modal fade" id="myModal0">   
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">About</h3>
+                        <button type="button" class="close" data-dismiss="modal">  
+                            x
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        我是Bunreal，是在職的臨床心理師，製作本網頁主要是想要有一個方便自己使用的小工具，沒有任何商業用途，所有的錄音檔資料都有標註來源與附上連結。
+                        <br><br>
+                        如果在播放期間，沒有按暫停而直接點回主畫面，將會繼續播放，直到你點選下一個放鬆訓練，或是點選主畫面的暫停，才會暫停。
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+
+
+        <!-- 正文 -->
+        <div class="row justify-content-center" id="totalitems">
+            show items
+        </div>
+
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content" id="mycontent">
+                    
+                    <!--
+                    <div class="modal-header">
+                        <h3 class="modal-title"></h3>
+                        <button type="button" class="close" data-dismiss="modal">  
+                            x
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <audio id="myAudio" controls style="outline: none;">
+                            <source src="" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio><br>
+                    </div>
+                    <div class="modal-footer">
+                        <h3></h3>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                            取消
+                        </button>
+                    </div> 
+                    -->
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 為了生成第一個畫面
+        var totalItems = document.getElementById('totalitems');
+        totalItems.innerHTML = '';
+        for (var i = 0 ; i < falsejson1.length ; i++){
+            totalItems.innerHTML +=
+            `
+            <div class="col-sm-6 col-md-4">
+                <div style="padding:10px" class='bg-light border'>
+                    <h4>${falsejson1[i].name}</h4>
+                    <img src="files/${falsejson1[i].image}.png" class="rounded img-fluid">
+                    <br><br>
+                    <button type="button" class="mybtn" data-toggle="modal" data-target="#myModal">點選</button>
+                </div>
+            </div>
+            `
+        }
+
+        var btns = document.querySelectorAll('.row button');
+        var content = document.getElementById('mycontent');
+
+        var myaudio;
+
+
+        btns.forEach(el => {
+
+
+
+            el.addEventListener('click', ()=>{
+                var indexnum;
+                for(var i=0;i<btns.length;i++){
+                    if(btns[i]===el){
+                        indexnum =i;
+                        break;
+                    }
+                }
+
+                console.log(indexnum);
+
+            content.innerHTML = `
+                <div class="modal-header">
+                    <h3 class="modal-title">${falsejson1[indexnum].name}</h3>
+                    <button type="button" class="close" data-dismiss="modal">  
+                        X
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="files/${falsejson1[indexnum].image}.png" class="rounded img-fluid"><br><br>
+                    <audio id="myAudio" controls style="outline: none;">
+                        <source src="files/${falsejson1[indexnum].audio}.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio><br><br><br>
+                    來源網站：
+                    <a href="${falsejson1[indexnum].srcURL}">${falsejson1[indexnum].srcNAME}</a>
+                </div>
+            `;
+            
+            myaudio = document.getElementById('myAudio');
+
+            document.querySelector('#playAudio').disabled = false;
+            document.querySelector('#pauseAudio').disabled = false;
+
+            })
+        }) 
+
+        function playAudio(){
+            myaudio.play();
+        }
+        function pauseAudio(){
+            myaudio.pause();
+            console.log('1')
+        }
+
+    </script>
+</body>
+</html>
