@@ -7,7 +7,7 @@ categories: ["Psy", "Code"]
 tags: ["Bootstrap"]
 comments: true
 cover:
-  image: "https://i.imgur.com/OpmxoYb.png" # image path/url
+  image: "https://i.imgur.com/98LzdZL.png" # image path/url
 ---
 
 我並不是一個很擅長放鬆的人，因此除了工作所需而使用到相關技巧，我自己也希望在這部分能夠持續進步。
