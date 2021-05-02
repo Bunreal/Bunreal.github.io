@@ -7,7 +7,7 @@ categories: ["Psy", "Code"]
 tags: ["Bootstrap"]
 comments: true
 cover:
-  image: "https://i.imgur.com/rOLMCQG.png" # image path/url
+  image: "https://i.imgur.com/OpmxoYb.png" # image path/url
 ---
 
 我並不是一個很擅長放鬆的人，因此除了工作所需而使用到相關技巧，我自己也希望在這部分能夠持續進步。
@@ -23,7 +23,7 @@ cover:
 - 在目前（這也是最早的版本）有使用到的放鬆技巧：三分鐘呼吸空間、呼吸覺察、自我暗示放鬆。若有合法取得其他適合的放鬆技巧，我也會在之後繼續更新。
 - 點進去後，便可播放與暫停。如果在播放期間回到主畫面，也可使用主畫面的 Play 和 Pause 控制。
 - 因為趁機練習 Bootstrap 響應式網頁，因此也便於用手機開啟。
-- 圖式範例：![OpmxoYb](https://i.imgur.com/OpmxoYb.png)<
+- 圖式範例：![OpmxoYb](https://i.imgur.com/OpmxoYb.png)
 
 ## 我的提醒
 
