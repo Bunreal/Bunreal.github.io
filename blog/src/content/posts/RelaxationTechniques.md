@@ -25,6 +25,10 @@ cover:
 - 因為趁機練習 Bootstrap 響應式網頁，因此也便於用手機開啟。
 - 圖式範例：![OpmxoYb](https://i.imgur.com/OpmxoYb.png)
 
+## 連結在這
+
+[Daily Relaxation Techniques](https://bunreal.github.io/RelaxPractice/)
+
 ## 我的提醒
 
 - 不同的放鬆技巧所對應到的可能是不同的理論與機制，每個人針對自身狀態、困擾類型，所適合的放鬆技巧也會不同，建議抱持開放的態度探索。
