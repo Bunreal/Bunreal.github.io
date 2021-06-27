@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>放鬆練習：呼吸引導</title>
+    <link href="./c3.css" rel="stylesheet">
+    <script src="./d3-5.8.2.min.js"></script>
+    <script src="./c3.min.js"></script>
+    <style>
+        body{
+            padding: 10px;
+            border:5px olive solid;
+        }
+        button{
+            width:100px;
+            height:50px;
+            background-color: salmon;
+            border: none;        
+            border-radius:10px;
+            margin: 10px;
+        }
+        .restart{
+            width:50px;
+            background-color:grey;
+            position:absolute;
+            top: 40px;
+            right:10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>放鬆練習：呼吸引導</h1>
+
+    <div id="setting">
+        <h2>個人化設定</h2>    
+        每次吸氣時間（秒）：<input id="inBTime" type="number" value="5"><br>
+        每次呼氣時間（秒）：<input id="outBTime" type="number" value="5"><br>
+        總共練習時間（分鐘）：<input id="totalTime" type="number" value="1"><br>
+        同時自我檢測：<input type="checkbox" checked><br>
+        <button onclick="start()">開始練習</button>
+    </div>
+
+    <div id="core" style="display:none">
+        <button class="restart" onclick=restart()>重置</button>
+        <canvas id="canvas"></canvas>
+        <button id="innnnn" style="display:none">吸氣</button>
+        <button id="outttt" style="display:none">吐氣</button>
+        <button id="show" onclick="print()" style="display:none">顯示圖表</button>
+    </div>
+
+    <div id="chartblock" style="display:none">
+        <button class="restart" onclick=restart()>重置</button>
+        <h3>圖表</h3>
+        <div id="chart"></div>
+        <p>繼續練習，提高生活品質！</p>
+    </div>
+
+    <script>
+
+        var saveType=[];
+        var saveTimepoint=[];
+
+        function start(){
+
+            if(document.querySelector('input[type=checkbox]').checked){
+                document.querySelector('#innnnn').style='display:inline';
+                document.querySelector('#outttt').style='display:inline';
+            }   
+
+            //一開始，切換畫面
+            document.querySelector('#setting').style ='display:none';
+            document.querySelector('#core').style ='display:block';
+            //取得值，才能夠開始個人化練習
+            var inB = document.querySelector('#inBTime').value;
+            var outB = document.querySelector('#outBTime').value;
+            var totalTIme = document.querySelector('#totalTime').value;
+            //作畫
+            var canvas = document.getElementById("canvas");
+            var ctx = canvas.getContext("2d");
+            
+            canvas.height = window.innerWidth;
+            canvas.width = window.innerWidth;
+
+            var minsize = 20; // 這個部分是調整minsize，他會持續變化，而maxsize只是作為一個參考標準使用而已
+            var maxsize = 120;
+            var change = (maxsize-minsize)/(50*inB);
+
+            var timeoutID = window.setInterval(( () => {
+                ctx.clearRect(0,0,400,400);  // 先清空
+
+                minsize = minsize + change; // 要調整位置嗎？？？
+
+                if(minsize > maxsize){
+                    change = -(maxsize-20)/(50*outB);  
+                }else if( minsize < 20){
+                    change = (maxsize-20)/(50*inB); ;
+                }   
+
+                ctx.beginPath();
+                ctx.arc(150,150,minsize,0,Math.PI*2);
+                ctx.strokeStyle = "#0F4C81";
+                ctx.stroke();
+                ctx.fillStyle = "#0F4C81";
+                ctx.fill();    
+            } ), 20); //一秒變50次，每次0.02秒。
+            
+            //這裡是窗格的概念，幫助我計時
+            var faketime = 0;
+            var faketime1 = window.setInterval((()=>{
+                faketime += 0.01;
+            }),10)
+
+            //一開始就開始吸氣了，所以自動先丟入吸氣，並且把時間在起始點
+            saveType.push('in')
+            saveTimepoint.push(faketime)
+
+            function test1111(){ //吸氣時，arr的變化
+                console.log(1)
+                saveType.push('in')
+                saveTimepoint.push(faketime)
+            }
+            function test2222(){ //吐氣時，arr的變化
+                console.log(2)
+                saveType.push('out')
+                saveTimepoint.push(faketime)
+            }
+
+            window.addEventListener('keydown',(e)=>{
+                if (e.keyCode === 37){
+                    test1111();
+                }
+                if (e.keyCode === 39){
+                    test2222();
+                }
+            })
+
+            document.querySelector('#innnnn').addEventListener('click',()=>{
+                test1111();
+            })
+            document.querySelector('#outttt').addEventListener('click',()=>{
+                test2222(); 
+            })
+
+            window.setTimeout(()=>{
+                window.clearInterval(timeoutID); //讓球的變化停止
+                window.clearInterval(faketime1); //讓窗格的自動累加停止
+
+                if(document.querySelector('input[type=checkbox]').checked){
+                    document.querySelector('#show').style='display:block';
+                }
+                document.querySelector('#innnnn').style='display:none';
+                document.querySelector('#outttt').style='display:none';
+            }, totalTIme*1000*60);
+        }
+
+        function restart(){
+            var yes = confirm('你確定嗎');
+            if(yes){
+                location.reload(true);        
+            }
+        }
+
+        function print(){
+            document.querySelector('#core').style='display:none';
+            document.querySelector('#chartblock').style='display:block';
+
+            var arr3=[]; //整理後的in，表示每次吸氣花的時間
+            var arr4=[]; //整理後的out，表示每次吐氣花的時間
+     
+            for(var i = 1;i<saveType.length;i++){
+                if(saveType[i]==='in' && saveType[i-1]==='out'){
+                    arr4.push(saveTimepoint[i]-saveTimepoint[i-1]);
+                }
+                if(saveType[i]==='out' && saveType[i-1]==='in'){
+                    arr3.push(saveTimepoint[i]-saveTimepoint[i-1]);
+                }
+            }
+
+            arr3 = arr3.map(el=>el.toFixed(3))
+            arr4 = arr4.map(el=>el.toFixed(3))
+
+            console.log(arr3);
+            console.log(arr4)
+
+            var chart = c3.generate({
+                bindto: '#chart',
+                data: {
+                    columns: [
+                        ['吸氣', ...arr3],
+                        ['吐氣', ...arr4]
+                        //['吸氣', 30, 200, 100, 400, 150, 250],
+                        //['吐氣', 50, 20, 10, 40, 15, 25]
+                    ],
+                },
+                axis: {
+                    y: {
+                        label: { // ADD
+                        text: '每次吸氣或吐氣的時間長',
+                        position: 'outer-middle'
+                        }
+                    }
+                }
+            });
+        }
+
+    </script>
+</body>
+</html>
