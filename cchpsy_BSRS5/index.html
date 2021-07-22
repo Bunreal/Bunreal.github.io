@@ -41,6 +41,7 @@
       .tbody li:nth-child(7n-5){
         text-align: left;
       }
+
       
 
       @media only screen and (max-width:768px){
@@ -77,6 +78,19 @@
         .tbody li{
           text-align: left;
         }
+
+        input[type="radio"]{
+          display: none;
+        }
+        label {
+          background-color:rgba(240, 230, 199, 0.288);
+          border-radius: 20px ;
+          float: left;
+          text-align: right; 
+          width: 100px; 
+          height: 18px;
+        }
+
 
       }
       header, footer{
@@ -116,6 +130,9 @@
       th,td{
         padding: 5px;
       }
+
+
+
     </style>
 </head>
 <body>
@@ -146,56 +163,56 @@
           <ol class="tr">
               <li data-title="編號">1</li>
               <li data-title="題目">睡眠困難，譬如難以入睡、易醒或早醒。</li>
-              <li data-title="完全沒有"><input type="radio" name="item1" value="0"></li>
-              <li data-title="輕微"><input type="radio" name="item1" value="1"></li>
-              <li data-title="中等程度"><input type="radio" name="item1" value="2"></li>
-              <li data-title="厲害"><input type="radio" name="item1" value="3"></li>
-              <li data-title="非常厲害"><input type="radio" name="item1" value="4"></li>
+              <li data-title="完全沒有"><label><input type="radio" name="item1" value="0"></label></li>
+              <li data-title="輕微"><label><input type="radio" name="item1" value="1"></label></li>
+              <li data-title="中等程度"><label><input type="radio" name="item1" value="2"></label></li>
+              <li data-title="厲害"><label><input type="radio" name="item1" value="3"></label></li>
+              <li data-title="非常厲害"><label><input type="radio" name="item1" value="4"></label></li>
           </ol>
           <ol class="tr">
               <li data-title="編號">2</li>
               <li data-title="題目">感覺緊張不安。</li>
-              <li data-title="完全沒有"><input type="radio" name="item2" value="0"></li>
-              <li data-title="輕微"><input type="radio" name="item2" value="1"></li>
-              <li data-title="中等程度"><input type="radio" name="item2" value="2"></li>
-              <li data-title="厲害"><input type="radio" name="item2" value="3"></li>
-              <li data-title="非常厲害"><input type="radio" name="item2" value="4"></li>
+              <li data-title="完全沒有"><label><input type="radio" name="item2" value="0"></label></li>
+              <li data-title="輕微"><label><input type="radio" name="item2" value="1"></label></li>
+              <li data-title="中等程度"><label><input type="radio" name="item2" value="2"></label></li>
+              <li data-title="厲害"><label><input type="radio" name="item2" value="3"></label></li>
+              <li data-title="非常厲害"><label><input type="radio" name="item2" value="4"></label></li>
           </ol>
           <ol class="tr">
               <li data-title="編號">3</li>
               <li data-title="題目">覺得容易苦惱或動怒。</li>
-              <li data-title="完全沒有"><input type="radio" name="item3" value="0"></li>
-              <li data-title="輕微"><input type="radio" name="item3" value="1"></li>
-              <li data-title="中等程度"><input type="radio" name="item3" value="2"></li>
-              <li data-title="厲害"><input type="radio" name="item3" value="3"></li>
-              <li data-title="非常厲害"><input type="radio" name="item3" value="4"></li>
+              <li data-title="完全沒有"><label><input type="radio" name="item3" value="0"></label></li>
+              <li data-title="輕微"><label><input type="radio" name="item3" value="1"></label></li>
+              <li data-title="中等程度"><label><input type="radio" name="item3" value="2"></label></li>
+              <li data-title="厲害"><label><input type="radio" name="item3" value="3"></label></li>
+              <li data-title="非常厲害"><label><input type="radio" name="item3" value="4"></label></li>
           </ol>
           <ol class="tr">
             <li data-title="編號">4</li>
             <li data-title="題目">感覺憂鬱、心情低落。</li>
-            <li data-title="完全沒有"><input type="radio" name="item4" value="0"></li>
-            <li data-title="輕微"><input type="radio" name="item4" value="1"></li>
-            <li data-title="中等程度"><input type="radio" name="item4" value="2"></li>
-            <li data-title="厲害"><input type="radio" name="item4" value="3"></li>
-            <li data-title="非常厲害"><input type="radio" name="item4" value="4"></li>
+            <li data-title="完全沒有"><label><input type="radio" name="item4" value="0"></label></li>
+            <li data-title="輕微"><label><input type="radio" name="item4" value="1"></label></li>
+            <li data-title="中等程度"><label><input type="radio" name="item4" value="2"></label></li>
+            <li data-title="厲害"><label><input type="radio" name="item4" value="3"></label></li>
+            <li data-title="非常厲害"><label><input type="radio" name="item4" value="4"></label></li>
           </ol>
           <ol class="tr">
             <li data-title="編號">5</li>
             <li data-title="題目">覺得比不上別人。</li>
-            <li data-title="完全沒有"><input type="radio" name="item5" value="0"></li>
-            <li data-title="輕微"><input type="radio" name="item5" value="1"></li>
-            <li data-title="中等程度"><input type="radio" name="item5" value="2"></li>
-            <li data-title="厲害"><input type="radio" name="item5" value="3"></li>
-            <li data-title="非常厲害"><input type="radio" name="item5" value="4"></li>
+            <li data-title="完全沒有"><label><input type="radio" name="item5" value="0"></label></li>
+            <li data-title="輕微"><label><input type="radio" name="item5" value="1"></label></li>
+            <li data-title="中等程度"><label><input type="radio" name="item5" value="2"></label></li>
+            <li data-title="厲害"><label><input type="radio" name="item5" value="3"></label></li>
+            <li data-title="非常厲害"><label><input type="radio" name="item5" value="4"></label></li>
           </ol>
           <ol class="tr">
             <li data-title="編號">6</li>
             <li data-title="題目">有自殺的想法。</li>
-            <li data-title="完全沒有"><input type="radio" name="item6" value="0"></li>
-            <li data-title="輕微"><input type="radio" name="item6" value="1"></li>
-            <li data-title="中等程度"><input type="radio" name="item6" value="2"></li>
-            <li data-title="厲害"><input type="radio" name="item6" value="3"></li>
-            <li data-title="非常厲害"><input type="radio" name="item6" value="4"></li>
+            <li data-title="完全沒有"><label><input type="radio" name="item6" value="0"></label></li>
+            <li data-title="輕微"><label><input type="radio" name="item6" value="1"></label></li>
+            <li data-title="中等程度"><label><input type="radio" name="item6" value="2"></label></li>
+            <li data-title="厲害"><label><input type="radio" name="item6" value="3"></label></li>
+            <li data-title="非常厲害"><label><input type="radio" name="item6" value="4"></label></li>
           </ol>
         </li>
       </ul>
@@ -297,6 +314,23 @@
           document.querySelector('#sui').textContent = suicideText;
         }
       }
+
+      if (window.innerWidth < 768) {
+        document.querySelectorAll('input[type="radio"]').forEach(el=>{
+          el.addEventListener('change',()=>{
+            let test = el.parentElement.parentElement.parentElement;
+            let test2 = test.querySelectorAll('label');
+            test2.forEach(el2=>{
+              el2.style.backgroundColor = 'rgba(240, 230, 199, 0.288)'
+            })
+            el.parentElement.style.backgroundColor = 'rgb(179 191 217)'
+          })
+        })
+      }
+
+
+
+
     </script>
 
 
