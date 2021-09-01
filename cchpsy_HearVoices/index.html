@@ -137,7 +137,7 @@
     <main>
         <div class="containstart">
             <div class="start" onclick="start()">
-                <p>CLICK!</p>
+                <p>點這裡!</p>
             </div>
         </div>
 
@@ -262,8 +262,9 @@
 
     // 音效
     function playAudio() {
-        const audio = document.createElement("audio");
-        audio.src = "sound.mp3";
+        //const audio = document.createElement("audio");
+        //audio.src = "sound.mp3";
+        const audio = new Audio('sound.mp3')
         audio.play();
     } 
 
