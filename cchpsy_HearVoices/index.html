@@ -9,11 +9,10 @@
         body {
             background-image: url('https://images.pexels.com/photos/2086748/pexels-photo-2086748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
             background-repeat: no-repeat;
-            background-size: auto;
-            background-position:top;
+            background-size:cover;
         }
         header, main, footer {
-            padding: 20px;
+            padding: 15px;
             text-align:center
         }    
         main {
@@ -24,8 +23,25 @@
             justify-items: center;
         }
         header {
-            margin-top: 10%;
+            margin-top: 5%;
         }
+        header p{
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        header h3{
+            margin-top: -20px;
+        }
+        footer{
+            bottom: 5%;
+            position:fixed;
+            width: -webkit-fill-available;
+        }
+        .content{
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
         .start{
             display: flex;
             background-color: rgb(204, 126, 36);
@@ -66,16 +82,44 @@
         line-height: 1em;
         }
 
-
         @media only screen and (max-width:768px){
             body{
-                background-position: top;
+                background-position: left top;
+                background-size:auto;
             }
-            header {
-                margin-top: 0;
+            header, main, footer{
+                padding: 2px;
+                text-align:center
+
+            }
+            .containstart{
+                display: flex;
+                justify-content: center;
             }
             .start {
                 order: 1;
+                bottom: 10%;
+                position:fixed;   
+                border-radius: 50px;
+                z-index: 1;
+                background-color: rgba(204, 126, 36,0.7);   
+            }
+            .content{
+                font-size: 10px;
+                padding-left: 0%;
+                padding-right: 0%;
+            }
+            .ml11 {
+                font-size: 2m;
+            }
+            footer{
+                bottom: 2%;
+            }
+            #ttt2{
+                display: none;
+            }
+            #ttt1::after{
+                content: '聽聽他們說了什麼';
             }
         }
 
@@ -86,36 +130,26 @@
     <header>
         <h1>聽聽夥伴們的話</h1>
         <h3>Voices from others</h3>
-        <p>心情低落、難受的時候，我們經常會選擇獨自承受，<br>
-            這些是來自夥伴們的話，聽聽他們說了什麼，<br>
-            你並不是只有一個人，我們在彼此的身邊。</p>
+        <p>心情低落、難受的時候，我們經常會選擇獨自承受，
+            這些是來自夥伴們的話，<span id="ttt1"></span><span id="ttt2">聽聽他們說了什麼<Br></span>
+            ，你並不是只有一個人，我們在彼此的身邊。</p>
     </header>
     <main>
-
-        <div class="start" onclick="start()">
-            <p>CLICK!</p>
+        <div class="containstart">
+            <div class="start" onclick="start()">
+                <p>CLICK!</p>
+            </div>
         </div>
+
         <div class="content" >
-        <!--
-            <h1 class="ml11">
-                <span class="text-wrapper">
-                  <span class="line line1"></span>
-                  <span class="letters">Hello Goodbye</span>
-                </span>
-            </h1>
-        -->
         </div>
-
     </main>
     <footer>
         <h4>彰基挺消防🧯</h4>
-        <h1 class="ml11">
     </footer>
-
 <script>        
 
     let data = [];
-
     fetch('https://script.google.com/macros/s/AKfycbyRPntpIAn_-aHn34Ub4w7KOvdO7b0oFgnJjxcBtnh-BUKCrKuowEe202qJ3lsHcwMFhA/exec')
         .then(res=>{
             return res.text()
@@ -126,7 +160,7 @@
         })
 
     function start(){
-
+        document.querySelector('.start').style.visibility='hidden'
         var animation = anime.timeline({
             targets: '.start',
             delay: 200,
@@ -143,24 +177,44 @@
         animation.finished.then(show);
     }
   
+    // 測試版
+    //const testdata = [
+    //'對的人在旁邊陪就好',
+    ////'難過一下就好了，你的身邊還有很多人在關心你喔',
+    ////'宵夜我請。滷味？鹹酥雞？58、海尼根？',
+    //'加油',
+    //'你可以把內心真實的感受說出來,不想說也沒關係，等到你想說的時候再說吧'
+    //];
+
+    // 按鈕的動畫
     function show(){
         document.querySelector('.content').style.display = 'block';
 
-        //const data = [
-        //    '雖然沒辦法為你解憂，但是我們會陪你', 
-        //    '宵夜我請。滷味、鹹酥雞？海尼根？',
-        //    '加油',
-        //    '難過一下就好了，你的身邊還有很多人在關心你喔'
-        //];
+        // 測試版
+        //let getOne;
+        //if(testdata.length>0){
+        //    let num = Math.floor(Math.random() * testdata.length); // 0,1,2,3
+        //    getOne = testdata[num];
+        //    testdata.splice(num,1);
+        //}else{
+        //    getOne = '抽完了！'
+        //}
 
-        let num = Math.floor(Math.random() * data.length);
-        let getOne = data[num];
-        
+        // 正式版
+        let getOne;
+        if(data.length>0){
+            let num = Math.floor(Math.random() * data.length); 
+            getOne = data[num];
+            data.splice(num,1);
+        }else{
+            getOne = '你已經聽到所有夥伴的聲音了，要記得你並不是一個人'
+        }
+        playAudio();
         wordAnime(getOne);
     }
 
+    // 字的動畫
     function wordAnime(getOne){
-
         document.querySelector('.content').innerHTML = `
         <h1 class="ml11">
                 <span class="text-wrapper">
@@ -201,7 +255,17 @@
             targets: '.ml11 .line',
             opacity: [1,0]
         })
+        animation2.finished.then(()=>{
+            document.querySelector('.start').style.visibility = 'visible';
+        });
     }
+
+    // 音效
+    function playAudio() {
+        const audio = document.createElement("audio");
+        audio.src = "sound.mp3";
+        audio.play();
+    } 
 
 </script>
 </body>
