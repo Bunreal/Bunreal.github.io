@@ -134,12 +134,13 @@
         <p>心情低落、難受的時候，我們經常會選擇獨自承受，
             這些是來自夥伴們的話，<span id="ttt1"></span><span id="ttt2">聽聽他們說了什麼<Br></span>
             ，你並不是只有一個人，我們在彼此的身邊。</p>
+        <iframe src="250-milliseconds-of-silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
 
-            <audio id="myAudio"  autoplay>
-                <source src="a_short_walk.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
+        <audio id="player" autoplay loop>
+            <source src="a_short_walk.mp3" type="audio/mp3">
+        </audio>
     </header>
+    
     <main>
         <div class="containstart">
             <div class="start" onclick="start()">
