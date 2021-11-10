@@ -6,7 +6,16 @@
     <description>Recent content in Posts on bComingB</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 May 2021 23:41:24 +0800</lastBuildDate><atom:link href="https://bunreal.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Nov 2021 23:41:24 +0800</lastBuildDate><atom:link href="https://bunreal.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>究竟什麼是 Event Loop</title>
+      <link>https://bunreal.github.io/blog/posts/eventloop/</link>
+      <pubDate>Wed, 10 Nov 2021 23:41:24 +0800</pubDate>
+      
+      <guid>https://bunreal.github.io/blog/posts/eventloop/</guid>
+      <description>exercise</description>
+    </item>
+    
     <item>
       <title>幾個放鬆資源的整理</title>
       <link>https://bunreal.github.io/blog/posts/relaxationtechniques/</link>
