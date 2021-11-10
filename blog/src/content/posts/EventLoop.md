@@ -7,8 +7,6 @@ categories: ["Code"]
 comments: true
 ---
 
-# 究竟什麼是 Event Loop？
-
 ## 資料來源
 
 - [所以說 event loop 到底是什麼玩意兒？| Philip Roberts | JSConf EU](https://www.youtube.com/watch?v=8aGhZQkoFbQ&feature=emb_title)
