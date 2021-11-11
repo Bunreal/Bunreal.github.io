@@ -6,14 +6,23 @@
     <description>Recent content in Code on bComingB</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Nov 2021 23:41:24 +0800</lastBuildDate><atom:link href="https://bunreal.github.io/blog/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Nov 2021 22:18:48 +0800</lastBuildDate><atom:link href="https://bunreal.github.io/blog/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>用ORID架構寫最近學習心得</title>
+      <link>https://bunreal.github.io/blog/posts/2021novorid/</link>
+      <pubDate>Thu, 11 Nov 2021 22:18:48 +0800</pubDate>
+      
+      <guid>https://bunreal.github.io/blog/posts/2021novorid/</guid>
+      <description>ac_exercise</description>
+    </item>
+    
     <item>
       <title>究竟什麼是 Event Loop</title>
       <link>https://bunreal.github.io/blog/posts/eventloop/</link>
       <pubDate>Wed, 10 Nov 2021 23:41:24 +0800</pubDate>
       
       <guid>https://bunreal.github.io/blog/posts/eventloop/</guid>
-      <description>exercise</description>
+      <description>ac_exercise</description>
     </item>
     
     <item>
