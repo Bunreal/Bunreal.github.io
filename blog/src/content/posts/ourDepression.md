@@ -2,7 +2,7 @@
 title: "心情低落總有時"
 date: 2021-12-09T18:48:46+08:00
 draft: false
-summary: ""
+summary: "我朋友問我如何傾聽他人以及提供幫助"
 categories: ["Psy"]
 tags: ["depression"]
 comments: true
