@@ -5,6 +5,8 @@ draft: false
 summary: "希望可以有一個小工具好用在臨床工作上，創造其他心理照護的可能性"
 categories: ["Psy", "Code"]
 comments: false
+cover:
+  image: "https://i.imgur.com/EKq5jAC.png" # image path/url
 ---
 
 最近日子過得其實蠻徬徨的，決定整理一下前陣子製作的小工具，把這個待辦事項確實打勾，然後再繼續面對其他挑戰。
