@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BeerTodo</title>
   <link rel="stylesheet" href="main.css">
+  <script src="https://unpkg.com/uuid@latest/dist/umd/uuidv4.min.js"></script>
 </head>
 <body>
   <div id="app">
@@ -15,12 +16,12 @@
       <ul class="theLists">
         <li class="item">
           <div class="round">
-            <label for="checkbox">
-              <input type="checkbox" class="itemCheck" id="checkbox">
+            <label id="labeltest">
+              <input type="checkbox">
             </label>
           </div>
           <label class="itemName">項目一</label>
-          <button class="deleteBtn">x</button>
+          <button class="removeBtn"></button>
         </li>
       </ul>
     </div>

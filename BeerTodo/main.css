@@ -1,17 +1,17 @@
+/* reset */
 * {
   margin: 0;
   padding: 0;
 }
-
 ul, li {
   list-style: none;
 }
 
+/* main view */
 #app {
   width: 100%;
   position: relative;
 }
-
 #main {
   width: 500px;
   position: absolute;
@@ -19,13 +19,11 @@ ul, li {
   top: 50%;
   transform: translateX(-50%);
 }
-
 header {
   text-align: center;
   font-size: 40px;
   text-transform: uppercase;
 }
-
 #newOne {
   width: 100%;
   height: 40px;
@@ -33,16 +31,18 @@ header {
   padding: 10px;
   font-size: 20px;
 }
-
 .item {
   display: flex;
   border: 1px solid #ccc;
   height: 50px;
   align-items: center;
+  padding: 2px
 }
 .itemName {
   flex: 1;
 }
+
+/* checkbox */
 .round {
   position: relative;
   margin-right: 40px;
@@ -60,7 +60,7 @@ header {
   transform: translateY(-50%);
 }
 .round label::after {
-  border: 2px solid rgb(21, 12, 12);
+  border: 2px solid #fff;
   border-top: none;
   border-right: none;
   content: "";
@@ -72,12 +72,37 @@ header {
   transform: rotate(-45deg);
   width: 12px;
 }
-
 .round input[type="checkbox"] {
-  visibility: hidden;
+  display: block;
 }
-
-.round input[type="checkbox"]:checked + label {
+.round input[type="checkbox"]:checked + label{
   background-color: #66bb6a;
   border-color: #66bb6a;
+}
+.round input[type="checkbox"]:checked+label:after {
+  opacity: 1;
+}
+
+/* remove item btn */
+.removeBtn {
+  width: 30px;
+  height: 30px;
+  border: none;
+  position: relative;
+  background-color: white;
+}
+.removeBtn::after{
+  content: "\00d7";
+  font-size: 2em;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateX(50%);
+  opacity: 0;
+}
+.item:hover >button::after{
+  opacity: 0.3;
+}
+.item>button:hover::after {
+  opacity: 1;
 }
