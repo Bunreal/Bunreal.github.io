@@ -10,6 +10,13 @@ categories: ["Code"]
 
 - Twitter 作業是 AC 學期 3 的最大挑戰，目標是透過組隊的方式完成前後端分離或是全端的網頁製作，並且仿造真實 twitter，除了有前端網頁可以互動、串接後端 api，也需要有管理員頁面。
 
+## 作品
+
+- [Twitter Demo](https://bunreal.github.io/Twitter2022/#/logIn)
+- [後端 API](https://damp-wave-52946.herokuapp.com/api-doc/)
+- [前端 repo](https://github.com/Yanhuabcd820/twitter2022)
+- [後端 repo](https://github.com/GallonShih/twitter-api-2020)
+
 ## 我負責的工作
 
 - 我們這組是 2 前端 + 2 後端的組合，其中我負責前端。
