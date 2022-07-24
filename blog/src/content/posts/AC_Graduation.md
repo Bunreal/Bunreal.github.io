@@ -1,7 +1,7 @@
 ---
 title: "真實的冒險，奇幻的經驗：AC結業心得"
 date: 2022-06-18T17:47:24+08:00
-draft: false
+draft: true
 summary: "一些酸甜苦辣的心得"
 categories: ["Code"]
 ---
