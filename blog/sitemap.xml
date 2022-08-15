@@ -1,128 +1,81 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://bunreal.github.io/blog/</loc>
-    <lastmod>2022-03-14T22:13:06+08:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-08-15T21:21:12+08:00</lastmod>
+  </url><url>
+    <loc>https://bunreal.github.io/blog/posts/</loc>
+    <lastmod>2022-08-15T21:21:12+08:00</lastmod>
+  </url><url>
+    <loc>https://bunreal.github.io/blog/posts/resetlife/</loc>
+    <lastmod>2022-08-15T21:21:12+08:00</lastmod>
+  </url><url>
     <loc>https://bunreal.github.io/blog/categories/</loc>
     <lastmod>2022-03-14T22:13:06+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bunreal.github.io/blog/categories/code/</loc>
     <lastmod>2022-03-14T22:13:06+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bunreal.github.io/blog/posts/</loc>
-    <lastmod>2022-03-14T22:13:06+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bunreal.github.io/blog/categories/psy/</loc>
     <lastmod>2022-03-14T22:13:06+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bunreal.github.io/blog/posts/linebotforpsy/</loc>
     <lastmod>2022-03-14T22:13:06+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bunreal.github.io/blog/tags/depression/</loc>
     <lastmod>2021-12-09T18:48:46+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bunreal.github.io/blog/tags/</loc>
     <lastmod>2021-12-09T18:48:46+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bunreal.github.io/blog/posts/ourdepression/</loc>
     <lastmod>2021-12-09T18:48:46+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bunreal.github.io/blog/tags/bootstrap/</loc>
     <lastmod>2021-05-02T23:41:24+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bunreal.github.io/blog/posts/relaxationtechniques/</loc>
     <lastmod>2021-05-02T23:41:24+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bunreal.github.io/blog/tags/app/</loc>
     <lastmod>2021-04-05T00:24:07+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bunreal.github.io/blog/posts/antar/</loc>
     <lastmod>2021-04-05T00:24:07+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bunreal.github.io/blog/tags/book/</loc>
-    <lastmod>2021-03-11T21:06:49+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bunreal.github.io/blog/posts/thenoondaydemon1to5/</loc>
     <lastmod>2021-03-11T21:06:49+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://bunreal.github.io/blog/tags/book/</loc>
+    <lastmod>2021-03-11T21:06:49+08:00</lastmod>
+  </url><url>
     <loc>https://bunreal.github.io/blog/tags/canvas/</loc>
     <lastmod>2021-03-01T21:01:47+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bunreal.github.io/blog/tags/chart.js/</loc>
     <lastmod>2021-03-01T21:01:47+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bunreal.github.io/blog/posts/caferadar/</loc>
     <lastmod>2021-03-01T21:01:47+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bunreal.github.io/blog/tags/psychotherapy/</loc>
     <lastmod>2021-02-19T22:09:33+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bunreal.github.io/blog/posts/adviseforpsy/</loc>
     <lastmod>2021-02-19T22:09:33+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bunreal.github.io/blog/posts/gotosea/</loc>
     <lastmod>2021-02-19T00:34:45+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bunreal.github.io/blog/tags/say/</loc>
     <lastmod>2021-02-12T22:36:55+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bunreal.github.io/blog/posts/newyear/</loc>
     <lastmod>2021-02-12T22:36:55+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bunreal.github.io/blog/archives/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bunreal.github.io/blog/search/</loc>
   </url>
-  
 </urlset>
