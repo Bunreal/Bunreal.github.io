@@ -1,5 +1,5 @@
 ---
-title: "SupernoteA5X"
+title: "使用心得：Supernote A5 X"
 date: 2023-01-11T10:25:37+08:00
 draft: false
 summary: "因為漂流計畫體驗了SupernoteA5X，簡短分享心得"
@@ -14,48 +14,47 @@ summary: "因為漂流計畫體驗了SupernoteA5X，簡短分享心得"
 
 ## 體驗心得
 
-![](https://lh3.googleusercontent.com/UHhG8q1NwPuRuZ_Eo4xh4WoLrKzzwT8L4oj_amGiG_GHfI1dryXPUuYrQuK5Z3uIRj5a42G8ese2G9CJnlg3myRYL1DHuImzPTd9K6TojSXpmbOXJ092lWpSP8noyySSSp5SRfU4bu_2WXA_Ave6LR78tqob8U3Bbf9NcaDS3L20BZT7oe2l5bNDUMcx9dlfUqkR-QdNak2dlGIXXMclxzfZySDLax65nNqIg8igH9PCU2MXJsRDvUfysl6EHoUrpotf6FJJZvflISOm3ugfztGWcUFBHVBxkODp5JRH-rUOfKTWXJ2TEpcjXXV4mMzvfpGMDQEyFdAxlFgPIo6dnd63mUrQvmZkxOs-BQpIDJcjkCnM2eMcfJsANsnRuEDxBIVkfgPBNCTcviRvT9TSHCqotORkTFdjL1-prpnKV6YYF5Wz8-pniQurkEsEcwsvqxMYjwNlZ3awwWBMtywbGN1a8uyXoC44YPIsWN73zFbMa8b7IP9Yk2BGfuCpJLL5u6CDMxLwvm5CFdvZ-IzVBu75JfwNAq5VzeMKFtwqSNcsxT0AbQ--C_I7VlCDDnvXYiylxot1Q3OWDXYoy6M8Rpp56AggdUyfSIsyNq1HX5rv44loGV5PB6sHtGwV3kepFHzpQv7l-mgk49N-EWiohb9SfAUzDJROUIfztjxbcRrP-I0DGZJr4YOciyj0tTHu9ksp6fV54yzs5Oe33WhT_v5gOuNIl4iadJitHsOnk8B4qAIEqbx8ROk6tOEsfqGX240AHuXwQk0Tw9xV_Ghymq5CFlbsory6IhH7QV3Jd1-4WFj2Qsgr_qgqowornnUNE2AVt-L7EXo81B2NXvUmeFhH0oLonSgRvBsErPwEjXOWCsbWIWat9kOsltA1fjB1_oVqKib1_ULu-TkPXdCMsn0xOwhyi2on9A-eqas_vAcIsA=s975-no?authuser=0)
+![](https://imgur.com/EJMGsee.jpg)
 
 ### 閱讀我自己匯入的 pdf 檔案
 
 - 優點
-  - 因為第一次使用到可手寫且防手觸的機器，使用的感覺很直覺舒服，手指翻頁，然後筆下去就直接做筆記，好讚
+  - 因為第一次使用到可手寫且防手觸的機器，使用的感覺很直覺舒服，手指翻頁，然後筆下去就直接做筆記，好讚。
 - 缺點
-  - 雖然可以查閱旁注，就是我畫過的 highlight 或筆記，但沒有很方便，如圖片，預覽的畫面都很模糊，筆記很小就算了，最大的問題是如果只畫 highlight，只看到一條一條線，卻沒有顯示內文文字，這樣就沒有查閱的意義了吧
-  - 打星星雖然也是一種標註方式，但是實際用起來，星星的辨識率蠻差，要試很多次才會被辨識成星星
-  - 翻頁的部分預設往右翻，沒有辦法設定左翻，像我閱讀的書是往左翻的，每次點右邊是下一頁，點左邊是上一頁，有點不直覺
+  - 雖然可以查閱旁注，就是我畫過的 highlight 或筆記，但沒有很方便，如圖片，預覽的畫面都很模糊，筆記很小就算了，最大的問題是如果只畫 highlight，只看到一條一條線，卻沒有顯示內文文字，這樣就沒有查閱的意義了吧！
+  - 打星星雖然也是一種標註方式，但是實際用起來，星星的辨識率蠻差，要試很多次才會被辨識成星星。
+  - 翻頁的部分預設往右翻，沒有辦法設定左翻，像我閱讀的書是往左翻的，每次點右邊是下一頁，點左邊是上一頁，有點不直覺。
 
-![](https://lh3.googleusercontent.com/6WKYgHXe_Iz0cygtKA4U7o-SKM_1P3ANjIS0RRrgIGpkT4YkZnX-72W0YXjPkwiV689yrEWtO_jGt4g7pIXWS8A5WhMmLAko8-T2NTmATyukM5QYidSfH4kiWSYVCP64WV-KHOZkpW7ZRe3gavwprVjBhFb4vmK2UJur0mBpihn7-cvO_BB8YndEKRCc1rp2IkVw4LOi3Mg_Ekd2hxHu4d9y7zPsQVETuVlVbGFSZQOCgzP3IZHejGfNVlTfeU3O06gayQCieiLGU7JQw72F9vofDznyeNxzvM-TlbVaksebNLGTCYVf4MxHPPBaYUguy1nzsngMNeT1ClkxO0WrVxWX0c2RLOxE91X9n68m9b2C1Ddmlb94o5N_t5yg-UVPUZE6y7g_RYLSRTQc0lpfEwmquv4uOe5AiX54X_GdqVIS_rROfw4KKz0oQu3QW1hbXMPrC3jeL96A5gHbJ3zTuEOlQ0LC-tHJ2CUmCHT8lfJY3swmJ-rUlFrOaH75InxE_7SArzF-SCD-MYmCTm7IrF3M_YUUZ-UnG9CaYAMynGrJFXz7xzk2AM5K2a1H8_-h_z9dMg7xfg9fl1yWoooxewHDCgYbitlN_PtlWoNxWguwOtDyVYLv-6KN7_PFWvLNbRjmhmEiOKG5Hn6d7D7eHQ_5_Fh8LKCf3k0Ia-MPhDxAg2TF3HI64fN0WSgwy1ynVcYO8_olxKVK2JPxtcgQhzEYmu-S5TMAavduobyi4YN36mwdt5FAORqGiAKChPNEiT5YXgsAfwaKtrSiogeBpbxa9XpgkFramI9-3BkNmi87fROKAKndv5Tl6o6nbnRUADMGzVb62DVK-goApi_j2KsmymhqLNOJG7DD6tLZd1ZYzHjc04rOHjrRnTQamW5HyJWJu_XO_bLqPN4TI2Ahqbt1QXVnJoVMS9v_ishvXF25ww=w549-h975-no?authuser=0)
+![](https://imgur.com/FdIUteN.jpg)
 
 ### 使用 kindle APP 閱讀
 
 - 優點
-  - 如果喜歡封閉式系統，又想要看 kindle 書籍，除了 supernote，我沒有注意到其他牌的機器可以做到
-  - 可以用大螢幕閱讀 kindle 書籍我就很滿意了
+  - 如果喜歡封閉式系統，又想要看 kindle 書籍，除了 supernote，我沒有注意到其他牌的機器可以做到。
+  - 可以用大螢幕閱讀 kindle 書籍我就很滿意了。
 - 缺點
   - 系統使用同手機 APP，中間是喚起選單，點畫面右邊會翻到下一頁，點畫面左邊會翻到上一頁，但是可能是對機器裡的不同區塊的位置不熟悉，翻頁的時候很容易誤觸，譬如，明明點右邊要翻頁，但是常常喚起選單，可能是點的位置太靠中間、不夠右邊？
-  - 如果是用筆畫重點很精確，但是用手畫很容易誤觸位置，常常要畫這一行結果畫到上一行或是下一行
+  - 如果是用筆畫重點很精確，但是用手畫很容易誤觸位置，常常要畫這一行結果畫到上一行或是下一行。
 
 ### 在空白頁寫筆記或畫畫
 
 - 優點
-  - 寫起來的感覺真的很舒適
+  - 寫起來的感覺真的很舒適！
 - 缺點
-  - 沒有特別想要挑剔什麼
+  - 沒有特別想要挑剔什麼。
 
-![](https://lh3.googleusercontent.com/ffrsNVlqlR3Jo2yHurK1bmOj4QqbbxjNaVMTLGmfrl19n8e5BwtN6rwDEAjKAsm-YbWNwJBmq9iQHeMa0w5fbORFINovtUEkT0Hek_viPojSFX56NUY35BNm2y9nL-zmu9cBDay3LjBC_n7xyAcYg-aKwPTgigw7_o2hmYVvyVvOmel6L6nqaUDm9JK1ZduBb86NENWu0G4W2TUsAijmDoGUsNTWWTupltZ3aubDTBzBvea-ThUInBzCiztOfDxKPBlvyDZit8j3DqOpOwvlVQgdIysnRavF51cIfYwHOr7lPY3cUWTmD_pP4BVJJZpDqaA_LRSqKG3r3X9pOsBMp8YgMswHWcza4PyNoK2agHAF7V-CoMxI_i_gKJyMv6Qy4YGmhsI7sHztfRK_5Lz9OwTDKanyH2AfMvjewXMUYGi1IVIyE6RlWFcoPXhuZYLYPlE4rgiEsQ04e7ePeAXdDqdtstsIBTZ41Nh3-rLtYpLSIy_BPLXAwFHtcqoNw7OsshuGIqEZk4dOaX45yJdrG1obBMAPg_GYD0aXxIiSVdIM-lpkFn6ABAzSaUDqPeNwqsRvWT4-4UIiICv5DC1VOwSoDksG-h7MdQue8YAbDwWeoDJ6YwyPXO1V2YhU5zePyMsjajYvFuPThzgEGhwwiVktKlSTc3N0YmkmDM-7dWepC7wtuhSzJPPXFDzP_tR-ijV9dDIAvEWsYtprnMbEAE8rm81DJIehNAIVFPi9GO-LcE_e22w3sD9JYZscd2gVTNMAlHQZibCwZ0Y5khUvKzjZg2WqEx0uPsnn1Y9wg79c7zHkTfef_CURS7gewdPuwA_qcOZvO9H7_HHjrhhBd5AoWi47zsmZ7YieMImG8ngChTWfpCccm3XIFox_Grk9M0-QuCekBy3Nu78H1ty92Bi0JrZfrRRDpP4pSU-KMNfVHQ=w549-h975-no?authuser=0)
+![](https://imgur.com/Fq3xc8l.jpg)
 
-![](https://lh3.googleusercontent.com/hHdEmRa1et23GMUtRafqELyY57nKrvEwbUWweWPmHtaD1WXc2r3u5N2-EI0Q-pzbWY_8AUOEXDgZq1KvA0CclKKLr3k6angdZLGq9IMfBfrwJ4jJnG9d84XZETQXLDWbq1rUbKoWZ0bYC60Op8vGxqqFXWVMFapPr4h7ni8BwPSzjvDZ2ceIvm53dsUCWF-Aw_kU3Ziw_l0tXJJa-B5I8g-J90ETQ7ZVpgPE9Okyn1X86xQdPS9RgqM0cespp55Mu2enXOPnAz9577FrHyF_VSbXnA1ynWImn_aaa2Og-dwNpoF08RLgXVLxhkOP6a5Co6ZCnBXDL5H-y15bcZVxJ3HhkhrIXIAPFgbjd1EkNPBQX9cV9saLSUfHFCDLrqfKYaT-P3JFsxuWqFCmM8kHK8URVTii24CTDtIutUpwJXCag961glUAAyFNtLfAHIJyZIlkYEz76z8AG5rVZ4sSLwjPN_QrYzGC0_WRMG5_wGTRGXnyhAnzQedJDPpRzEl94DwVuNin4qBVoOgyxqGutce8EKmwtLjjGb1D9ZuJvRvscURl3Ta0QLVUMb2Okr8yl501_YBC3sPPKHrJactIsMtL6qrCgw0U9Tgraxdx5OabJz5HKal46XfdvmF0lqgCFjPo6p8h9h1dmN4tqiBu5WAkCw9GiWKEaR00PEFP2txHfy_eEy26EspcK7ge1xrws9mCAhZc_WapE7p5WLWVbdbiqYVB-oeq6cf6kkE-lyhRsrFnbRf8jRbyLZdYkSXCiX8TT38dzi0crvSur4muRd8FIL6cjZAzUylsy1R8M8X8IPqGMcUTXAU3aYye5EeowbCmxb5gdnqrad725lNcFDW5DUmSsoUbkCS57BbZgnQXXRYuc8xDB5gp6VHprsgRVy1H6qoRo-Xb2eapuAtpMw6H2E-NU1imPLOmogBgw4olhQ=w549-h975-no?authuser=0)
+![](https://imgur.com/ao5wydM.jpg)
 
 ### 其他
 
-- 使用筆的時候，筆蓋如果套在筆上方很容易掉，因此都要收在一旁，感覺很容易弄丟
-- 閱讀器殼雖然可以收納筆，但只是把筆掛到旁邊的筆套，會覺得不太安心，也會擔心哪天筆掉下去然後就壞掉了，甚至弄丟。我可能比較偏好用一定強度的磁性吸附。
+- 使用筆的時候，筆蓋如果套在筆上方很容易掉，因此都要收在一旁，感覺很容易弄丟。
+- 閱讀器的保護殼雖然可以收納筆，但只是把筆掛到旁邊的筆套，會覺得不太安心，也會擔心哪天筆掉下去然後就壞掉了，甚至弄丟。如果可以選擇，我比較偏好用一定強度的磁性吸附。
 - 機器沒有背光，因此使用時會需要注意環境光源是否充足
 - 不用更換筆芯真的是一個很大的優點
 
 ## 總結
 
-- 次其實有拿到兩台機器，分別是 Supernote A5 X 跟 Supernote A6 X，但我因為主要是想做筆記跟看 pdf，因此後來都是在用 Supernote A5 X，整體用下來很喜歡，如果真的要購買，會是我認真考慮的機器之一。
-- 很謝謝社群裡有這樣的活動可以體驗，讓我不只是在展場摸一摸，有機會可以在自己的生活情境、真對自己的工作任務去嘗試使用。
-- 另一台機器 Remarkable 2 是網友們評價手寫筆記的體感最好的機器之一，如果有機會也很想用用看～
+- 很謝謝社群裡有這樣的活動可以體驗，讓我不只是在展場摸一摸，有機會可以在自己的生活情境、針對自己的工作任務去嘗試使用。
+- 這次其實有拿到兩台機器，分別是 Supernote A5 X 跟 Supernote A6 X，但我因為主要是想做筆記跟看 pdf，因此後來都是在用 Supernote A5 X，整體用下來很喜歡，如果真的要購買，會是我認真考慮的機器之一。
