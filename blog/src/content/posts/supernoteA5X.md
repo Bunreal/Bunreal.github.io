@@ -3,6 +3,8 @@ title: "使用心得：Supernote A5 X"
 date: 2023-01-11T10:25:37+08:00
 draft: false
 summary: "因為漂流計畫體驗了SupernoteA5X，簡短分享心得"
+cover:
+  image: "https://imgur.com/EJMGsee.jpg" # image path/url
 ---
 
 漂流計畫是 FB【電子書閱讀器討論區】的一個活動，參與這個計畫的人可以體驗/試用閱讀器，且只要負擔很低的金額，我注意這個計畫很久，前陣子剛好看到感興趣的機器，於是便報名了，這篇分享我的使用心得。
