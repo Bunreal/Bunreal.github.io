@@ -107,7 +107,7 @@ SiteVerificationTag = "XYZabc"
 
 [[menu.main]]
 identifier = "about"
-name = "關於"
+name = "關於這裡"
 url = "/about/"
 weight = 1
 
@@ -119,7 +119,7 @@ weight = 4
 
 [[menu.main]]
 identifier = "find"
-name = "預約心理治療"
+name = "聯絡我"
 url = "/find/"
 weight = 10
 
