@@ -47,7 +47,7 @@ ShowPostNavLinks= true
   iconHeight = 35
 
   [params.profileMode]
-  enabled = false
+  enabled = true
   title = "ExampleSite"
   subtitle = "This is subtitle"
   imageUrl = "<img location>"
