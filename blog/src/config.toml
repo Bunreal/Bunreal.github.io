@@ -48,11 +48,11 @@ ShowPostNavLinks= true
 
   [params.profileMode]
   enabled = true
-  title = "作者簡介"
-  subtitle = "楊淯惇"
-  imageUrl = "https://lh3.googleusercontent.com/cD1h_6M8YuGMiwjpRfZcZvthjvr0a_APM9AZdGIEwCPMq5xCDqSQ5Nw9P0xZj3KVMD6fEaCax07tq07PW7vAxMrLUXqm_YA5FKHXNRXAxr-9302kU6yMs_SB-gz5eVxJ4gid4WgcOZByY9yaRmZtj3Ubd6ZklHPsrUq6oRL8i4ujEMxpb5A_G4nEwb14NQ4qyY54IRBAlh8tH1z3m64rxu-Jb9X5nORpAbvSsKTjdMQi4ocxnp0b3s07Nh3rpXb3bAMQ1Tia8IXBimqye-1ssJlP9xdPy60XSM5o5bDhhs7MyChdJrHs9YRsc8y4OyAiaNxVjau9c64ythx77CdWcydzhN5zkjpIAYSasRbzS1y-GljbST8oOwYu8RWMcDliwQGHElhlTn4FNGsoYgn78GRnNt7WTqb6MXIGOR9oggAiz0RQeH01Z9vt6MMV8pd6leUhQZWa0yvanNrAji5IbxdjTx2cKcKzx1N8hh-TaSSxBEbh46lVyq4LjMHG7StuMf_5rgKOxadui7vpJCk4IJP-TTm5qS-zNiEf8s_SoI4-3cpPfRW6rTVQkz4h2ftVnIlEtv3XgxqgbU9DwthnskxbbInLT6-AezNSBMAKe6O36MWE6J-LXJm367_UaQmfc8U9Scjl2sMo4Ey4bi5ZWr0WFiH9Y-yzOIwWpsfY0tg3ARH6R0ZvSgGMvnPOQaIOymnhc2oQKOP8rQ6UclgJUuKXw1C3Z7TFci70sPj8XErflkAdrdGxcJ0_-GN6SSmt3KO7FoBgMKgUfvUt3OJqIRLScmwyHjFual1TI511tpVs_wxhQJcjo2QH6v4p7HmtAQk-2vW7hx7n-96lGeIHIVse89j51N4Gkl62Mmo4m-UKq2Kl4M0FRkO2ODTzqcFgnvWzg7zKq1KflP8tex3DR86c1m83oAmAUXujGfMkTDYJfA=w1478-h1108-no?authuser=0"
-  imageWidth = 240
-  imageHeight = 240
+  title = "Hi, I'm Bunreal 👋"
+  subtitle = "我是台中人，現在是移動心理師，有在學校學輔中心兼職，也有在新北的治療所接案，寫自己覺得重要的或是喜歡的事"
+  imageUrl = "https://lh3.googleusercontent.com/4kYwhVOLvEvAUUm_fY_2AkA7emRBzHf8PgaXPpif1GKDmnECaUZB7RXHiJmtHAaDM9EjZqjnjEUpm1apk-sq4xtf6uk8mnG1XG_DLtKtviASWf1RyWHYzT1Q9nUsaLkrRAZEKBViAS-X0D7XEhxEXwnWrh9vtw6jjmM__WBCeGsow7QGRlPmW8nT9eiUKohtsr-0dG3F3zaVqWjMlnoRSDzAH7qifbvYsrfOlAL9h6Yobg4_97HtIktGXBuSMDXyMA5Aix-VEYjX4lsrF4WNI1EqTzKbjKLZGvx2gg3Mv7qrJ9bfpQTbT-uM5WPTTJEgASdR900tADv7Vtn54AbeZVvg9IzBuDk3tvW2fR0N6Z-gBN5Qp9hN8l7UIupBEx3eeCJ8SKAfbYgtVg6u1uMZ4VkvbJ-dz5HDvpt0qVDRk_TGZrcNo8AgoWDnHC_0c05IsxjdS418yz-UUCeFDZie07GOhMlsR8MlQ-cm0EsEZ3gq5eE942Xmp4JItLXp7sBV1pJNvugVHOe3sxFohALt7XnaJYRzo6RDmpVFLXuXRHDuvPic8S0vzBrTEaWxSrBtxDNO995pOMcnfvwDpJeBA_H47MFswX7KbUgP7p3BM2dr5zM9sN-LzRAFyI36j9s2G-7qJEue7UDe6xIqrXheahbGtHWBFUzgiPlE4E-d6BtfchmgsDTa44_RfLWgLc_iXWzWpBf8-tQFJjcLINiADSMu2sThBl_SCdoDUAIq4JmLf77kOWZjdKfJi-XKrKgp9wR5kyS69WvjamjrHXTpVr-pt9Eq1gXZdjts7qFEsDoOz8hpZVyrmHBEEO-CNnSoBvddRW4YWf1NQczaiQH3ApPUsMq8xyTrn9hPlWamkOrATXoH5n0xjEx9dudR0qyfdIIc6SQz6vGwxwaPpMAaJBwhvRf2zQOgx_axJLcM5a7Xzg=w1846-h1231-no?authuser=0"
+  imageWidth = 200
+  imageHeight = 200
   imageTitle = "my image"
 
     [[params.profileMode.buttons]]
