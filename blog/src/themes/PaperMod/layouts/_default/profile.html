@@ -10,7 +10,7 @@
     {{- with .Site.Params.profileMode }}
     <div class="profile_inner">
         {{- if .imageUrl}}<img src="{{ .imageUrl}}" alt="{{ .imageTitle | default "profile image" }}"
-            height="{{- .imageHeight | default 150 -}}" width="{{- .imageWidth | default 150 -}}" />{{- end}}
+            height="{{- .imageHeight | default 300 -}}" width="{{- .imageWidth | default 300 -}}" style="object-fit: cover; object-position: center center;"/>{{- end}}
         <h1>{{- .title | default $.Site.Title | markdownify -}}</h1>
         <span>{{- .subtitle | markdownify -}}</span>
         <p>我是一位臨床心理師</p>
