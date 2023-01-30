@@ -65,7 +65,7 @@ ShowPostNavLinks= true
 
     [[params.profileMode.buttons]]
     name = "分類"
-    url = "/categories/"
+    url = "categories"
     weight = 2
 
   [params.homeInfoParams]
