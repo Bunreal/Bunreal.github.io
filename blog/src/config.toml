@@ -25,13 +25,13 @@ images = [ "<link or path of image for opengraph, twitter-cards>" ]
 defaultTheme = "auto"
 disableThemeToggle = false
 ShowReadingTime = false
-ShowShareButtons = false
+ShowShareButtons = true
 disableSpecial1stPost = false
 comments = true
 hidemeta = false
 showtoc = true
 tocopen = false
-ShowBreadCrumbs = false
+ShowBreadCrumbs = true
 ShowPostNavLinks= true
 
 
