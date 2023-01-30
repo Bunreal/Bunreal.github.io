@@ -18,8 +18,8 @@ minifyOutput = true
 
 [params]
 env = "production"
-title = "ExampleSite"
-description = "ExampleSite description"
+title = "bComingB"
+description = "This is the website of Bunreal, and I made this for myself and others."
 author = "Bunreal"
 images = [ "<link or path of image for opengraph, twitter-cards>" ]
 defaultTheme = "auto"
@@ -110,19 +110,19 @@ weight = 1
 identifier = "archives"
 name = "文章彙整"
 url = "/archives/"
-weight = 10
+weight = 4
 
 [[menu.main]]
 identifier = "categories"
 name = "分類"
 url = "/categories/"
-weight = 10
+weight = 2
 
 [[menu.main]]
 identifier = "tags"
 name = "標籤"
 url = "/tags/"
-weight = 10
+weight = 3
 
 [[menu.main]]
 identifier = "find"
@@ -134,6 +134,6 @@ weight = 10
 identifier = "search"
 name = "搜尋"
 url = "/search/"
-weight = 20
+weight = 5
 
 
