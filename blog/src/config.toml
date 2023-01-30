@@ -101,38 +101,38 @@ SiteVerificationTag = "XYZabc"
   keys = [ "title", "permalink", "summary", "content" ]
 
 [[menu.main]]
-identifier = "profile"
-name = "Profile"
-url = "/profile/"
-weight = 10
+identifier = "about"
+name = "關於這裡"
+url = "/about/"
+weight = 1
 
 [[menu.main]]
 identifier = "archives"
-name = "Archives"
+name = "文章彙整"
 url = "/archives/"
 weight = 10
 
 [[menu.main]]
 identifier = "categories"
-name = "Categories"
+name = "分類"
 url = "/categories/"
 weight = 10
 
 [[menu.main]]
 identifier = "tags"
-name = "Tags"
+name = "標籤"
 url = "/tags/"
 weight = 10
 
 [[menu.main]]
 identifier = "find"
-name = "Find"
+name = "想要心理諮商"
 url = "/find/"
 weight = 10
 
 [[menu.main]]
 identifier = "search"
-name = "Search"
+name = "搜尋"
 url = "/search/"
 weight = 20
 
