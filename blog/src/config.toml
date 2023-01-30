@@ -75,6 +75,9 @@ ShowPostNavLinks= true
   name = "instagram"
   url = "https://www.instagram.com/bunrealy/"
 
+  [[params.socialIcons]]
+  name = "email"
+  url = "bunreal0@gmail.com"
 
 [params.analytics.google]
 SiteVerificationTag = "XYZabc"
