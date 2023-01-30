@@ -1,3 +1,14 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description }}
+  </div>
+  {{- end }}
+</header>
+
 <div class="profile">
     {{- with .Site.Params.profileMode }}
     <div class="profile_inner">
