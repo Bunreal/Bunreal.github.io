@@ -63,6 +63,11 @@ ShowPostNavLinks= true
     name = "標籤"
     url = "tags"
 
+    [[params.profileMode.buttons]]
+    name = "分類"
+    url = "/categories/"
+    weight = 2
+
   [params.homeInfoParams]
   Title = "Hi, I'm Bunreal 👋"
   Content = "台中人，現在是移動心理師，有在學校學輔中心兼職，也有在新北的治療所接案，寫自己覺得重要的或是喜歡的事"
@@ -102,7 +107,7 @@ SiteVerificationTag = "XYZabc"
 
 [[menu.main]]
 identifier = "about"
-name = "關於這裡"
+name = "關於"
 url = "/about/"
 weight = 1
 
@@ -113,20 +118,8 @@ url = "/archives/"
 weight = 4
 
 [[menu.main]]
-identifier = "categories"
-name = "分類"
-url = "/categories/"
-weight = 2
-
-[[menu.main]]
-identifier = "tags"
-name = "標籤"
-url = "/tags/"
-weight = 3
-
-[[menu.main]]
 identifier = "find"
-name = "想要心理諮商"
+name = "預約心理治療"
 url = "/find/"
 weight = 10
 
