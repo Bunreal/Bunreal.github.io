@@ -65,7 +65,7 @@ ShowPostNavLinks= true
 
   [params.homeInfoParams]
   Title = "Hi, I'm Bunreal 👋"
-  Content = "一位在彰化工作的台中人，計畫養成新的寫作習慣，寫自己覺得重要的或是喜歡的事"
+  Content = "台中人，現在是移動心理師，有在學校學輔中心兼職，也有在新北的治療所接案，寫自己覺得重要的或是喜歡的事"
 
   [[params.socialIcons]]
   name = "facebook"
