@@ -77,7 +77,7 @@ ShowPostNavLinks= true
 
   [[params.socialIcons]]
   name = "email"
-  url = "bunreal0@gmail.com"
+  url = "mailto:bunreal0@gmail.com?Subject=新年快樂"
 
 [params.analytics.google]
 SiteVerificationTag = "XYZabc"
