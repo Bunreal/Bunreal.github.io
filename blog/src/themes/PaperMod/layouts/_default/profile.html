@@ -1,39 +1,21 @@
-{{- define "main" }}
+<div class="profile">
+    {{- with .Site.Params.profileMode }}
+    <div class="profile_inner">
+        {{- if .imageUrl}}<img src="{{ .imageUrl}}" alt="{{ .imageTitle | default "profile image" }}"
+            height="{{- .imageHeight | default 150 -}}" width="{{- .imageWidth | default 150 -}}" />{{- end}}
+        <h1>{{- .title | default $.Site.Title | markdownify -}}</h1>
+        <span>{{- .subtitle | markdownify -}}</span>
+        {{- partial "social_icons.html" $.Site.Params.socialIcons -}}
 
-<header class="page-header">
-  <h1>{{ .Title }}</h1>
-  {{- if .Description }}
-  <div class="post-description">{{ .Description }}</div>
-  {{- end }}
-</header>
-
-{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
-{{- range $pages.GroupByPublishDate "2006" }} {{- if ne .Key "0001" }}
-<div class="archive-year">
-  <h2 class="archive-year-header">
-    {{- replace .Key "0001" "" }}<sup class="archive-count"
-      >&nbsp;&nbsp;{{ len .Pages }}</sup
-    >
-  </h2>
-  {{- range .Pages.GroupByDate "January" }}
-  <div class="archive-month">
-    <h3 class="archive-month-header">
-      {{- .Key }}<sup class="archive-count">&nbsp;&nbsp;{{ len .Pages }}</sup>
-    </h3>
-    <div class="archive-posts">
-      {{- range .Pages }} {{- if eq .Kind "page" }}
-      <div class="archive-entry">
-        <h3 class="archive-entry-title">{{- .Title | markdownify }}</h3>
-        <div class="archive-meta">{{- partial "post_meta.html" . -}}</div>
-        <a
-          class="entry-link"
-          aria-label="post link to {{ .Title | plainify }}"
-          href="{{ .Permalink }}"
-        ></a>
-      </div>
-      {{- end }} {{- end }}
+        {{- with .buttons }}
+        <div class="buttons">
+            {{- range . -}}
+            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name | humanize }}">
+                <span class="button-inner">{{ .name }}</span>
+            </a>
+            {{- end -}}
+        </div>
+        {{- end }}
     </div>
-  </div>
-  {{- end }}
+    {{- end}}
 </div>
-{{- end }} {{- end }} {{- end }}{{/* end main */}}
