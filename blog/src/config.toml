@@ -47,11 +47,12 @@ ShowPostNavLinks= true
   iconHeight = 35
 
   [params.profileMode]
-  enabled = false
+  enabled = true
   title = "作者簡介"
   subtitle = "楊淯惇"
   imageUrl = "https://lh3.googleusercontent.com/cD1h_6M8YuGMiwjpRfZcZvthjvr0a_APM9AZdGIEwCPMq5xCDqSQ5Nw9P0xZj3KVMD6fEaCax07tq07PW7vAxMrLUXqm_YA5FKHXNRXAxr-9302kU6yMs_SB-gz5eVxJ4gid4WgcOZByY9yaRmZtj3Ubd6ZklHPsrUq6oRL8i4ujEMxpb5A_G4nEwb14NQ4qyY54IRBAlh8tH1z3m64rxu-Jb9X5nORpAbvSsKTjdMQi4ocxnp0b3s07Nh3rpXb3bAMQ1Tia8IXBimqye-1ssJlP9xdPy60XSM5o5bDhhs7MyChdJrHs9YRsc8y4OyAiaNxVjau9c64ythx77CdWcydzhN5zkjpIAYSasRbzS1y-GljbST8oOwYu8RWMcDliwQGHElhlTn4FNGsoYgn78GRnNt7WTqb6MXIGOR9oggAiz0RQeH01Z9vt6MMV8pd6leUhQZWa0yvanNrAji5IbxdjTx2cKcKzx1N8hh-TaSSxBEbh46lVyq4LjMHG7StuMf_5rgKOxadui7vpJCk4IJP-TTm5qS-zNiEf8s_SoI4-3cpPfRW6rTVQkz4h2ftVnIlEtv3XgxqgbU9DwthnskxbbInLT6-AezNSBMAKe6O36MWE6J-LXJm367_UaQmfc8U9Scjl2sMo4Ey4bi5ZWr0WFiH9Y-yzOIwWpsfY0tg3ARH6R0ZvSgGMvnPOQaIOymnhc2oQKOP8rQ6UclgJUuKXw1C3Z7TFci70sPj8XErflkAdrdGxcJ0_-GN6SSmt3KO7FoBgMKgUfvUt3OJqIRLScmwyHjFual1TI511tpVs_wxhQJcjo2QH6v4p7HmtAQk-2vW7hx7n-96lGeIHIVse89j51N4Gkl62Mmo4m-UKq2Kl4M0FRkO2ODTzqcFgnvWzg7zKq1KflP8tex3DR86c1m83oAmAUXujGfMkTDYJfA=w1478-h1108-no?authuser=0"
-  imageHeight = 300
+  imageWidth = 240
+  imageHeight = 240
   imageTitle = "my image"
 
     [[params.profileMode.buttons]]
