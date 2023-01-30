@@ -56,11 +56,11 @@ ShowPostNavLinks= true
   imageTitle = "my image"
 
     [[params.profileMode.buttons]]
-    name = "Posts"
+    name = "文章"
     url = "posts"
 
     [[params.profileMode.buttons]]
-    name = "Tags"
+    name = "標籤"
     url = "tags"
 
   [params.homeInfoParams]
@@ -122,6 +122,12 @@ weight = 10
 identifier = "tags"
 name = "Tags"
 url = "/tags/"
+weight = 10
+
+[[menu.main]]
+identifier = "find"
+name = "Find"
+url = "/find/"
 weight = 10
 
 [[menu.main]]
