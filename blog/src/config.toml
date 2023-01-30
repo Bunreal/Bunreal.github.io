@@ -85,8 +85,12 @@ ShowPostNavLinks= true
   url = ""
 
   [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/Bunreal"
+
+  [[params.socialIcons]]
   name = "email"
-  url = "mailto:bunreal0@gmail.com?Subject=新年快樂"
+  url = "mailto:bunreal0@gmail.com?Subject=新年快樂，我想要與你聯繫"
 
 [params.analytics.google]
 SiteVerificationTag = "XYZabc"

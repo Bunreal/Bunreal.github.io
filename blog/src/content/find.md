@@ -14,7 +14,8 @@ cover:
 
 ## 心理治療
 
-如果你想要找我，我現在職業的治療所是新北的[米露谷心理治療所](https://www.mirukupsy.com/?fbclid=IwAR2LebfQI9Od06F3ema6qJZNOOvPGeWEXHjHsoPvQrHvVwg0E5Iaqd8ygfk)，我在板橋、中和都有接案，你可以透過治療所的一般管道預約，並於聯繫時指定楊淯惇臨床心理師。如果有其他心理治療的問題，可以寄信詢問我：bunreal0@gmail.com
+如果你想要找我，我現在職業的治療所是新北的[米露谷心理治療所](https://www.mirukupsy.com/?fbclid=IwAR2LebfQI9Od06F3ema6qJZNOOvPGeWEXHjHsoPvQrHvVwg0E5Iaqd8ygfk)，我在板橋、中和都有接案，你可以透過治療所的一般管道預約，並於聯繫時指定我：楊淯惇臨床心理師。
+如果有其他心理治療的問題，可以寄信詢問我：bunreal0@gmail.com
 
 ## 工作邀約
 
