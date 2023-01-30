@@ -49,7 +49,7 @@ ShowPostNavLinks= true
   [params.profileMode]
   enabled = true
   title = "Hi, I'm Bunreal 👋"
-  subtitle = "我是台中人，是一位經常移動的臨床心理師，目前我在新北市的治療所接案，也有在大學的學輔中心兼職，在這裏我要寫我自己覺得重要的或是喜歡的事"
+  subtitle = "我在台中潭子，是一位經常移動的臨床心理師，目前我在新北市的治療所接案，也有在大學的學輔中心兼職，在這裏我要寫我自己覺得重要的或是喜歡的事"
   imageUrl = "images/profile.jpeg"
   imageWidth = 200
   imageHeight = 200
@@ -70,7 +70,7 @@ ShowPostNavLinks= true
 
   [params.homeInfoParams]
   Title = "Hi, I'm Bunreal 👋"
-  Content = "我是台中人，是一位經常移動的臨床心理師，目前我在新北市的治療所接案，也有在大學的學輔中心兼職，在這裏我要寫我自己覺得重要的或是喜歡的事"
+  Content = "我來自台中潭子，是一位經常移動的臨床心理師，目前我在新北市的治療所接案，也有在大學的學輔中心兼職，在這裏我要寫我自己覺得重要的或是喜歡的事"
 
   [[params.socialIcons]]
   name = "facebook"
