@@ -9,8 +9,6 @@ buildFuture = false
 buildExpired = false
 googleAnalytics = "UA-123-45"
 
-disqusShortname = "Bunrealy"
-
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
 
