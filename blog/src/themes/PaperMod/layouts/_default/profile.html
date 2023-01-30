@@ -13,6 +13,7 @@
             height="{{- .imageHeight | default 150 -}}" width="{{- .imageWidth | default 150 -}}" />{{- end}}
         <h1>{{- .title | default $.Site.Title | markdownify -}}</h1>
         <span>{{- .subtitle | markdownify -}}</span>
+        <p>我是一位臨床心理師</p>
         {{- partial "social_icons.html" $.Site.Params.socialIcons -}}
 
         {{- with .buttons }}
