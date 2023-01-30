@@ -1,7 +1,7 @@
 ---
 title: "想說的話"
 date: 2023-01-30T19:52:52+08:00
-slug: find
+slug: about
 draft: false
 summary: "想說的話"
 cover:
