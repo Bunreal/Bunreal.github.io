@@ -76,6 +76,10 @@ ShowPostNavLinks= true
   url = "https://www.instagram.com/bunrealy/"
 
   [[params.socialIcons]]
+  name = "medium"
+  url = ""
+
+  [[params.socialIcons]]
   name = "email"
   url = "mailto:bunreal0@gmail.com?Subject=新年快樂"
 
