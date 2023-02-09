@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mindfulness on bComingB</title>
+    <link>https://bunreal.github.io/blog/tags/mindfulness/</link>
+    <description>Recent content in mindfulness on bComingB</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Feb 2023 23:50:29 +0800</lastBuildDate><atom:link href="https://bunreal.github.io/blog/tags/mindfulness/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一個只要10分鐘的正念練習：正念書寫</title>
+      <link>https://bunreal.github.io/blog/posts/mindfulnesswriting/</link>
+      <pubDate>Thu, 09 Feb 2023 23:50:29 +0800</pubDate>
+      
+      <guid>https://bunreal.github.io/blog/posts/mindfulnesswriting/</guid>
+      <description>我們一起來做一個正念練習！</description>
+    </item>
+    
+  </channel>
+</rss>
