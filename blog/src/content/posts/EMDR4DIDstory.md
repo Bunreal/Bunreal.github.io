@@ -37,7 +37,7 @@ tags: ["book"]
 我們內在有很多部分。
 
 如果我們以為有一部分是真正的自己，其他部分則不是。
-![1](../../../images/20230620_1.png)
+![1](https://github.com/Bunreal/Bunreal.github.io/blob/main/blog/images/20230620_1.png?raw=true)
 
 如果我們瞭解每一個部分都是我們的一部分。
-![2](../../../images/20230620_2.png)
+![2](https://github.com/Bunreal/Bunreal.github.io/blob/main/blog/images/20230620_2.png?raw=true)
