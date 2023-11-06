@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        max-width: 480px;
+        margin: auto;
+      }
+      #surveyForm > p {
+        padding: 15px;
+        background-color: #f7f7f7;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px #ddd;
+      }
+      input[type="radio"] {
+        margin: 0 10px;
+      }
+      button {
+        background-color: #4caf50;
+        color: white;
+        padding: 14px 20px;
+        margin: 10px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+      }
+      button:hover {
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>測驗你的溝通類型</h1>
+    <p>製作者：楊淯惇臨床心理師</p>
+    <p>製作時間：20231106</p>
+    <p>
+      資料來源：<a
+        href="https://chickensoupfamily.com/2022/12/12/taiwan-satair/"
+        >雞湯來了</a
+      >
+    </p>
+    <h2>請填寫問卷</h2>
+    <p>
+      請在每題後選擇1到5中的一個數字，其中1表示「幾乎不會」，5表示「總是如此」。
+    </p>
+
+    <form id="surveyForm"></form>
+
+    <button onclick="calculate()">確認</button>
+
+    <p id="result"></p>
+
+    <script>
+      var questions = [
+        "在與他人的互動關係中，我常是委屈求全的一方",
+        "為了避免與他人產生衝突，即使我是對的，我也會讓步。",
+        "遇到讓我不滿意的事，我通常先責怪他人。",
+        "面對任何人，態度冷靜和理性回應是我一貫的作風。",
+        "我常分析自己的意見給他人聽，以顯示我是有兩把刷子的人。",
+        "當我的看法與他人不同時，我會故意忽略，假装沒這回事。",
+        "當他人要求我無法接受時，我會顧左右而言他，以免產生衝實。",
+        "在互動中發生問題時，我可以適時地向他人表達我內在的真實感受。",
+        "我會透過尊重的態度，與他人討論雙方不同的期待。",
+        "我會想讓他人開心而隱藏自己的喜好或意見。",
+        "為了關係或長遠的未來，我願意暫時忍譲。",
+        "當我不高興時，我會以強勢的態度要求他人配合我的想法或需求。",
+        "我比較在意事情是否能解決，較少考慮人的感受。",
+        "我說話會講究邏輯思考、理性思維，來顯示我是聰明、有智慧的人。",
+        "為了減少尷尬，我會說一些言不及義的話。",
+        "當我與他人意見不合時，我會雞同鴨講，不表明真正看法，來緩和氣氛。",
+        "我接納我自己真實的面貌，期許自己是內外一致的人。",
+        "意見不同時，我會溝通，試著找到彼此都贊同的方式。",
+        "我不敢表達負面的情緒或感受，因為我擔心他人會不喜歡我。",
+        "他人認為我不對時，不管是否有理，我都會很快表達歉意，減少他人的不滿",
+        "我會因為面子掛不住而指責他人的不是。",
+        "我面對衝突和壓力時，會像機器人般聚焦在問題 上，以求有效率地解決。",
+        "我說話常會引經據典，好讓人佩服我。",
+        "當我不想理他人的時候，我會把自己放空。",
+        "在關係出現緊張情境時，我會装作沒事，故做輕鬆狀。",
+        "與他人互動時，我可以考量他人和情境，適時地表達自己的感受與需要。",
+        "即使我對他人有所不滿，我仍願意理解對方，與其協調，並調整自己。",
+      ];
+      var directions = [
+        "A.弱勢的討好",
+        "B.顧及關係的討好",
+        "C.威權護顏的指責",
+        "D.唯理至上超理智",
+        "E.證明自己的超理智",
+        "F.逃避的打岔",
+        "G.事緩則圓的打岔",
+        "H.人我兼顧的一致",
+        "I.反求諸己的一致",
+      ];
+
+      // 生成問卷
+      for (var i = 1; i <= 27; i++) {
+        var questionElement = "<p>" + i + "." + questions[i - 1] + "</p>";
+        for (var j = 1; j <= 5; j++) {
+          questionElement += `<input type="radio" id="q${i}-${j}" name="q${i}" value="${j}"><label for="q${i}-${j}">${j}</label>`;
+        }
+        questionElement += "<br/>";
+        document.getElementById("surveyForm").innerHTML += questionElement;
+      }
+
+      // 計算各向度總分
+      function calculate() {
+        var arr = [0, 0, 0, 0, 0, 0, 0, 0, 0];
+        for (var i = 1; i <= 27; i++) {
+          var answered = false;
+          for (var j = 1; j <= 5; j++) {
+            var radioElement = document.getElementById("q" + i + "-" + j);
+            if (radioElement.checked) {
+              answered = true;
+              var index = i % 9 === 0 ? 8 : (i % 9) - 1;
+              arr[index] += parseInt(radioElement.value, 10);
+            }
+          }
+          if (!answered) {
+            alert("請回答所有問題！");
+            return;
+          }
+        }
+        document.getElementById("result").innerHTML = "結果：<br/>";
+        for (var k = 1; k <= 9; k++) {
+          document.getElementById("result").innerHTML +=
+            directions[k - 1] + "的分數: " + arr[k - 1] + "<br/>";
+        }
+      }
+    </script>
+  </body>
+</html>
