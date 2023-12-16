@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>角色抽籤器</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f5f5f5;
+        font-family: Arial, sans-serif;
+      }
+      #character {
+        margin-top: 20px;
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+        color: #333;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #4caf50;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="getCharacter()">點擊進行抽籤</button>
+
+    <p id="character"></p>
+
+    <script>
+      const characters = {
+        在意別人眼光的人:
+          "他總是擔心自己的每一個行為、言論會不會得罪別人，會不會被別人視為奇怪。",
+        樂觀積極的人:
+          "無論面臨什麼困難，他都會抱持著積極的態度，認為一切都會變好。",
+        自閉內向的人: "他比較喜歡與自己相處，對於人際交往有一定程度的排斥感。",
+        無所畏懼的人: "他擁有大無畏的精神，對於挑戰與困難毫不畏懼。",
+        非理性焦慮的人: "他總是因為未來的不確定性感到焦慮，並且容易過度擔憂。",
+        揮霍無度的人: "他不會管理自己的時間也不懂得珍惜資源，總是揮霍無度。",
+        強迫完美的人: "他要求自己所有的事都要做到極致，絲毫不允許有瑕疵。",
+        重視規矩的人:
+          "對他來說，就是要遵循規則，無論任何情況都不應該打破規則。",
+        助人為樂的人: "他總是樂於幫助他人，並從中獲得快樂。",
+        無法放手的人: "他對過去總是無法放手，難以接受和適應新的事物和變化。",
+      };
+
+      function getCharacter() {
+        const keys = Object.keys(characters);
+        const randomIndex = Math.floor(Math.random() * keys.length);
+        const character = keys[randomIndex];
+        const characterDescription = characters[character];
+        document.getElementById("character").innerText =
+          character + ": " + characterDescription;
+      }
+    </script>
+  </body>
+</html>
