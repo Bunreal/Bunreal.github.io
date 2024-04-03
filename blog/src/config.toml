@@ -131,6 +131,12 @@ weight = 10
 identifier = "search"
 name = "搜尋"
 url = "/search/"
-weight = 5
+weight = 8
+
+[[menu.main]]
+identifier = "engagements"
+name = "相關經歷"
+url = "/engagements/"
+weight = 7
 
 
