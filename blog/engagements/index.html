@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+  <meta charset="UTF-8">
+  <title>講座經驗時間線</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .timeline {
+      position: relative;
+      margin: 20px 0;
+    }
+
+    .timeline::after {
+      content: '';
+      position: absolute;
+      width: 6px;
+      background-color: #f5f5f5;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      margin-left: -3px;
+    }
+
+    .container {
+      padding: 10px 40px;
+      position: relative;
+      background-color: inherit;
+      width: 50%;
+    }
+
+    .left {
+      left: 0;
+    }
+
+    .right {
+      left: 50%;
+    }
+
+    .content {
+      padding: 20px;
+      background-color: white;
+      position: relative;
+      border-radius: 6px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .left .content {
+      margin-left: 90px;
+    }
+
+    .right .content {
+      margin-right: 90px;
+    }
+
+    .date {
+      position: absolute;
+      width: 60px;
+      top: 16px;
+    }
+
+    .left .date {
+      right: -68px;
+    }
+
+    .right .date {
+      left: -68px;
+    }
+
+    .date p {
+      margin: 0;
+      background-color: #6435c9;
+      color: white;
+      text-align: center;
+      border-radius: 8px;
+      padding: 3px 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="timeline">
+    <div class="container left">
+      <div class="date">
+        <p>2023年3月</p>
+      </div>
+      <div class="content">
+        <h2>講座主題</h2>
+        <p>對象：大學生</p>
+        <p>機構：某大學</p>
+        <p>摘要：介紹如何...</p>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="date">
+        <p>2023年5月</p>
+      </div>
+      <div class="content">
+        <h2>另一个講座主題</h2>
+        <p>對象：專業人士</p>
+        <p>機構：某企業</p>
+        <p>摘要：探討專業領域的...</p>
+      </div>
+    </div>
+    <!-- 根据需要添加更多.container -->
+  </div>
+
+</body>
+
+</html>
