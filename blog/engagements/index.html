@@ -2,7 +2,10 @@
 
 <html lang=en dir=auto>
 
+
+
 <head>
+
   <meta charset=utf-8>
 
   <meta http-equiv=x-ua-compatible content="IE=edge">
@@ -12,7 +15,58 @@
   <meta name=robots content="index, follow">
 
   <title>Engagements | bComingB</title>
-
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        color: #333;
+      }
+    
+      .timeline {
+        position: relative;
+        margin: 40px auto;
+        width: 80%;
+      }
+    
+      .timeline::after {
+        content: '';
+        position: absolute;
+        width: 2px;
+        background-color: #333;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        margin-left: -1px;
+      }
+    
+      .container {
+        padding: 16px 40px;
+        position: relative;
+        width: 50%;
+        left: 50%;
+        clear: both;
+      }
+    
+      .content {
+        padding: 10px 20px;
+        background-color: #fff;
+        position: relative;
+        border-radius: 6px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 10px;
+        margin-right: 90px;
+      }
+    
+      .activity-info {
+        font-size: 14px;
+      }
+    
+      .thumbnail {
+        width: 100px;
+        /* Adjust thumbnail size */
+        cursor: pointer;
+      }
+    </style>
   <meta name=keywords content>
 
   <meta name=description content="engagements">
@@ -134,9 +188,9 @@
 
         <li><a href=https://bunreal.github.io/blog/about/ title=關於這裡><span>關於這裡</span></a></li>
 
-        <li><a href=https://bunreal.github.io/blog/archives/ title=文章彙整><span class=active>文章彙整</span></a></li>
+        <li><a href=https://bunreal.github.io/blog/archives/ title=文章彙整><span>文章彙整</span></a></li>
 
-        <li><a href=https://bunreal.github.io/blog/engagements/ title=相關經歷><span>相關經歷</span></a></li>
+        <li><a href=https://bunreal.github.io/blog/engagements/ title=相關經歷><span class=active>相關經歷</span></a></li>
 
         <li><a href=https://bunreal.github.io/blog/search/ title="搜尋 (Alt + /)" accesskey= /><span>搜尋</span></a></li>
 
@@ -155,6 +209,30 @@
       <h1>相關經歷</h1>
 
     </header>
+
+    <div class="timeline">
+      <div class="container">
+        <div class="content">
+          <h4>成大講座</h4>
+          <p class="activity-info">2024年4月29日</p>
+          <img src="thumbnail.jpg" alt="成大講座投影片" class="thumbnail" onclick="viewImage('full_image.jpg')">
+        </div>
+        <!-- 更多活动... -->
+      </div>
+    </div>
+
+    <script>
+      function viewImage(imageUrl) {
+        // Open a new window to display the full-size image
+        window.open(imageUrl, '_blank');
+      }
+    </script>
+
+
+
+
+
+
 
     <script>document.getElementById("theme-toggle").addEventListener("click", () => { document.body.className.includes("dark") ? (document.body.classList.remove("dark"), localStorage.setItem("pref-theme", "light")) : (document.body.classList.add("dark"), localStorage.setItem("pref-theme", "dark")) })</script>
 
