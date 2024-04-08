@@ -15,6 +15,8 @@
       position: relative;
       margin: 40px auto;
       width: 80%;
+      max-width: 1200px;
+      /* Maximum width */
     }
 
     .timeline::after {
@@ -26,34 +28,75 @@
       bottom: 0;
       left: 50%;
       margin-left: -1px;
+      z-index: 1;
+      /* Ensure the timeline is below the date labels */
+
     }
 
-    .container {
-      padding: 16px 40px;
+    .event {
+      display: flex;
+      justify-content: flex-end;
+      /* Adjust based on image presence */
+      align-items: center;
+      margin-bottom: 20px;
       position: relative;
-      width: 50%;
+    }
+
+    .event .date-label {
+      position: absolute;
       left: 50%;
-      clear: both;
+      transform: translateX(-50%);
+      background-color: #FFF;
+      padding: 5px 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      z-index: 2;
+      /* Ensure date labels are above the timeline */
+
     }
 
-    .content {
-      padding: 10px 20px;
-      background-color: #fff;
-      position: relative;
+    .event .content,
+    .event .image {
+      flex: 1;
+      min-width: 240px;
+      max-width: 45%;
+      margin: 5px;
+    }
+
+    .event .image img {
+      width: 240px;
+      height: 135px;
       border-radius: 6px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      margin-bottom: 10px;
-      margin-right: 90px;
     }
 
-    .activity-info {
-      font-size: 14px;
-    }
+    @media (max-width: 768px) {
+      .timeline::after {
+        display: none;
+        /* Hide the vertical line on smaller screens */
+      }
 
-    .thumbnail {
-      width: 100px;
-      /* Adjust thumbnail size */
-      cursor: pointer;
+      .event {
+        justify-content: center;
+      }
+
+      .event .date-label {
+        position: static;
+        transform: none;
+        margin-bottom: 10px;
+      }
+
+      .event .content,
+      .event .image {
+        max-width: 100%;
+        text-align: center;
+      }
+
+      .event .image img {
+        margin: auto;
+        order: -1;
+        /* Ensure images appear on the left on smaller screens */
+
+      }
     }
   </style>
 </head>
@@ -61,22 +104,34 @@
 <body>
 
   <div class="timeline">
-    <div class="container">
-      <div class="content">
-        <h4>成大講座</h4>
-        <p class="activity-info">2024年4月29日</p>
-        <img src="thumbnail.jpg" alt="成大講座投影片" class="thumbnail" onclick="viewImage('full_image.jpg')">
+    <!-- Example Event with an image -->
+    <div class="event">
+      <div class="date-label">2024年4月</div>
+      <div class="image">
+        <img
+          src="https://lh3.googleusercontent.com/pw/AP1GczO96UE7Ze7Ep8zB9onpuZButSiFBh3dmQdbgc1gpYd8lnNCDvtudUizCOEH-O7yf8pZP8Fsid8PssE0GFhgv6uok5ORMYIOU4SGldzxNCNL3ZgOlqaJDeJSnji4w_RLwcuQ2zhCIgOU6ULNDTETHbtVuVuAuEA5Rt4Ckbtqz3wohgAviSJa2zMBWnzXX-nAE4v_ICe2twmpQHh6phv-tfrp-Y4HAE5d5Bhv2-eciAlcuFo7RcGmdgf57UxPAPHRRgDKOjX_PkdKGZsrwhOdsPpB7_IEior35Zt5pqP3H6veu-2uS2AQAwnGu-MK0LcW_lSlHtgBvuIfn6XkTxdfvPwgf-wzjL_6Bvl_8eqDgGon4YZfp0a8aaHJLZ_z0n6DoO7ekO0gkXpqmNfAJ2FUoF3G2CsPsv3sTK4CH1OBtJBRNgwIG17C7ZQ1mW_MPf4KwYWGWiUtmeW-PQitsZIOEYv3fY3zxWVpFqFknMdH8f4e8pAiy2yr7Oeg2Sb0UJi2w2KIf21Ebd7x_miWdx-1bPHUH7tQPJ8uS5rYEts50gKVg3UnKSgk3PpTqzByIPgG7K4tCIaaZn4xXC7vyNgIi_wfM6Od0ekcQ6Fc4DVQAmD1GgFjGniGDdIDkT8DJdj5bJCTeeBooXf76bCArurkDyuosR5PII5zQ8Js99FRxZ4GdNuU9PdSPe6zyCPxEWP41-IKBJgvmqL_gd_N3t4LKkWcz0v2KKixE8GQqhoTG9ezLCNzlcgGMxVItxgaWQlpnhhmRamrcsB705560lADuPEMw53wnmNcXqxa-xWsq-odmxvLgz_uYFd71usNDhklFW-2IjBsTfKzwsqEH-uy56AXytZaXZd-NLhCBClytAxnpuR1gjor1EBZXLaS046kThYC_3OEgbGvXDO78KyYDG_tu4a2=w1920-h1080-s-no-gm?authuser=0"
+          alt="Event Description">
       </div>
-      <!-- 更多活动... -->
+      <div class="content">
+        <h4>活動名稱</h4>
+        <p class="activity-info">活動詳情</p>
+      </div>
     </div>
-  </div>
 
-  <script>
-    function viewImage(imageUrl) {
-      // Open a new window to display the full-size image
-      window.open(imageUrl, '_blank');
-    }
-  </script>
+    <div class="event">
+      <div class="date-label">2024年4月</div>
+      <div class="image">
+        <img
+          src="https://lh3.googleusercontent.com/pw/AP1GczO96UE7Ze7Ep8zB9onpuZButSiFBh3dmQdbgc1gpYd8lnNCDvtudUizCOEH-O7yf8pZP8Fsid8PssE0GFhgv6uok5ORMYIOU4SGldzxNCNL3ZgOlqaJDeJSnji4w_RLwcuQ2zhCIgOU6ULNDTETHbtVuVuAuEA5Rt4Ckbtqz3wohgAviSJa2zMBWnzXX-nAE4v_ICe2twmpQHh6phv-tfrp-Y4HAE5d5Bhv2-eciAlcuFo7RcGmdgf57UxPAPHRRgDKOjX_PkdKGZsrwhOdsPpB7_IEior35Zt5pqP3H6veu-2uS2AQAwnGu-MK0LcW_lSlHtgBvuIfn6XkTxdfvPwgf-wzjL_6Bvl_8eqDgGon4YZfp0a8aaHJLZ_z0n6DoO7ekO0gkXpqmNfAJ2FUoF3G2CsPsv3sTK4CH1OBtJBRNgwIG17C7ZQ1mW_MPf4KwYWGWiUtmeW-PQitsZIOEYv3fY3zxWVpFqFknMdH8f4e8pAiy2yr7Oeg2Sb0UJi2w2KIf21Ebd7x_miWdx-1bPHUH7tQPJ8uS5rYEts50gKVg3UnKSgk3PpTqzByIPgG7K4tCIaaZn4xXC7vyNgIi_wfM6Od0ekcQ6Fc4DVQAmD1GgFjGniGDdIDkT8DJdj5bJCTeeBooXf76bCArurkDyuosR5PII5zQ8Js99FRxZ4GdNuU9PdSPe6zyCPxEWP41-IKBJgvmqL_gd_N3t4LKkWcz0v2KKixE8GQqhoTG9ezLCNzlcgGMxVItxgaWQlpnhhmRamrcsB705560lADuPEMw53wnmNcXqxa-xWsq-odmxvLgz_uYFd71usNDhklFW-2IjBsTfKzwsqEH-uy56AXytZaXZd-NLhCBClytAxnpuR1gjor1EBZXLaS046kThYC_3OEgbGvXDO78KyYDG_tu4a2=w1920-h1080-s-no-gm?authuser=0"
+          alt="Event Description">
+      </div>
+      <div class="content">
+        <h4>活動名稱</h4>
+        <p class="activity-info">活動詳情</p>
+      </div>
+    </div>
+    <!-- Add more events as needed, following the same structure -->
+  </div>
 
 </body>
 

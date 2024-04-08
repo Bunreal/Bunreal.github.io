@@ -1,0 +1,39 @@
+body{
+	border:2px solid black;
+	width: auto;
+	height: 580px;
+	margin-top: 2%;
+	margin-bottom:2%;
+	margin-left: 3%;
+	margin-right: 3%;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 25px;
+	padding-bottom: 40px;
+	font-family: VT323;
+}
+
+h1{
+	font-size: 60px;
+}
+
+h2{
+	font-size: 26px;
+}
+
+#ins{
+	font-size: 20px;
+	line-height: 22px;
+}
+
+#he1{
+	font-size: 24px;
+}
+
+#image{
+	max-height: 200px;
+}
+
+#answer{
+	font-size: 30px;
+}

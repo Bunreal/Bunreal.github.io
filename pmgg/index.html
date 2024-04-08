@@ -1,0 +1,170 @@
+<!--
+  ver = 4.0
+  for 圖片不重複、新增圖片
+//-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PMGG</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=VT323"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8;" />
+    <div>
+      <h1>Welcome to PsyMasterGuessGame!</h1>
+      <p id="he1">
+        There are 15 people who made important contributions to Psychology here.
+      </p>
+    </div>
+    <div id="header2">
+      <h2>Instruction:</h2>
+      <p id="ins">
+        1. Press the "go".<br />
+        2. Guess the name of the master in the picture.<br />
+        3. If you want to try it more than once, press "go" again.<br />
+        4. Two errors at most.
+      </p>
+    </div>
+    <section>
+      <div id="test"></div>
+      <div id="imageaa">
+        <img src="" id="image" />
+      </div>
+      <script>
+        var psymasterName = [
+          "Freud",
+          "Adler",
+          "Jung",
+          "Yalom",
+          "Rogers",
+          "Winnicott",
+          "Skinner",
+          "Seligman",
+          "Klein",
+          "Satir",
+          "Lacan",
+          "Anna",
+          "Piaget",
+          "Frankl",
+          "Fromm",
+        ];
+        var myImage = document.getElementById("image");
+        var psymasterPhoto = [
+          "https://fthmb.tqn.com/gcGsuwdH2IysCLerA0cG-UQN6lY=/768x0/filters:no_upscale()/56817339-56a792555f9b58b7d0ebc9cf.jpg",
+          "https://lowdoorway.files.wordpress.com/2012/03/adler.jpg",
+          "https://www.prints-online.com/p/164/jung-carl-gustav-1875-1961-swiss-psychiatrist-14183894.jpg.webp",
+          "https://members.australiacounselling.com.au/wp-content/uploads/2015/03/Dr-Irvin-D-Yalom.jpg",
+          "https://assets-global.website-files.com/6376b3cd50ff5098111f9942/6414ec174c253a44ac9da8b5_carl%20rogers.jpg",
+          "https://i1.sndcdn.com/artworks-000162202405-oqsz23-t500x500.jpg",
+          "https://www.crystalinks.com/skinner.jpg",
+          "https://brightspotcdn.byu.edu/8f/e3/9979b487c7ba99c0b0db99452003/seligman.jpg",
+          "https://images.gr-assets.com/authors/1262964850p5/138528.jpg",
+          "https://satir.web.unc.edu/wp-content/uploads/sites/8379/2016/12/virginia-satir-3.jpg",
+          "https://i.pinimg.com/736x/e5/85/88/e585880d49fb5cbbe43d4a743abd9d05--jacques-psychology.jpg",
+          "https://assets-global.website-files.com/6376b3cd50ff5098111f9942/642223b7628f7a4bbeb55066_anna%20freud.jpg",
+          "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1034835464.jpg",
+          "https://jiandepsy.com/wp-content/uploads/2022/11/Viktor-Frankl.jpeg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Erich_Fromm_1974.jpg/1200px-Erich_Fromm_1974.jpg",
+        ];
+        var ct = 0;
+        var cf = 0;
+        //document.getElementById("test").textContent=psymasterName[no];
+        function changeImage() {
+          var s = psymasterName.length;
+          no = Math.floor(Math.random() * s);
+          myImage.setAttribute("src", psymasterPhoto[no]);
+          document.getElementById("test1").value = "";
+          document.getElementById("answer").innerHTML = "";
+          document.getElementById("a").disabled = false;
+        }
+      </script>
+      <button id="aa" onclick="changeImage()">go</button>
+      <input size="20" id="test1" name="test1" />
+      <input
+        id="a"
+        name="submit"
+        onclick="compare()"
+        type="button"
+        value="確定"
+      />
+      <span id="answer"></span>
+      <script>
+        function compare() {
+          var x, text;
+          x = document.getElementById("test1").value;
+          if (x == psymasterName[no].toLowerCase()) {
+            text = "True!";
+            ct += 1;
+            document.getElementById("a").disabled = true;
+            //important
+            /*    var center = psymasterName[no];
+        var middle = psymasterPhoto[no];
+        psymasterName.push(center);
+        psymasterPhoto.push(middle);
+        var cen = psymasterName[no];
+        var mid = psymasterPhoto[no];
+        psymasterName[no] = psymasterName[s - 1];
+        psymasterPhoto[no] = psymasterPhoto[s - 1];
+        psymasterName[s - 1] = cen;
+        psymasterPhoto[s - 1] = mid;        
+        psymasterName.pop();
+        psymasterName.pop();
+        psymasterPhoto.pop();
+        psymasterPhoto.pop(); 
+*/
+          } else {
+            text = "False!  " + "This one is " + psymasterName[no] + ".";
+            cf += 1;
+            document.getElementById("a").disabled = true;
+          }
+          document.getElementById("answer").innerHTML = text;
+          document.getElementById("cture").textContent = "答對 " + ct + " 次";
+          if (cf == 2) {
+            document.getElementById("imageaa").textContent = "Game Over!!!";
+            document.getElementById("cfalse").textContent =
+              "答錯 " + cf + " 次";
+            document.getElementById("a").disabled = true;
+            document.getElementById("aa").disabled = true;
+          } else {
+            document.getElementById("cfalse").textContent =
+              "答錯 " + cf + " 次";
+          }
+          var t = psymasterName.length;
+          var center = psymasterName[no];
+          var middle = psymasterPhoto[no];
+          psymasterName.push(center);
+          psymasterPhoto.push(middle);
+          var cen = psymasterName[no];
+          var mid = psymasterPhoto[no];
+          psymasterName[no] = psymasterName[t - 1];
+          psymasterPhoto[no] = psymasterPhoto[t - 1];
+          psymasterName[t - 1] = cen;
+          psymasterPhoto[t - 1] = mid;
+          psymasterName.pop();
+          psymasterName.pop();
+          psymasterPhoto.pop();
+          psymasterPhoto.pop();
+          if (psymasterName.length == 0) {
+            //document.getElementById("imageaa").textContent = "Congratulations! You finished this game.";
+            document
+              .getElementById("image")
+              .setAttribute(
+                "src",
+                "https://media.giphy.com/media/bKBM7H63PIykM/giphy.gif"
+              );
+            document.getElementById("ins").textContent =
+              "Congratulations! You finished this game.";
+            document.getElementById("a").disabled = true;
+            document.getElementById("aa").disabled = true;
+          }
+        }
+      </script>
+      <span id="cture"> </span>
+      <span id="cfalse"> </span>
+    </section>
+  </body>
+</html>
