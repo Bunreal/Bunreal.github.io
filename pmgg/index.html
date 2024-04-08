@@ -96,7 +96,7 @@
         function compare() {
           var x, text;
           x = document.getElementById("test1").value;
-          if (x == psymasterName[no].toLowerCase()) {
+          if (x.toLowerCase() == psymasterName[no].toLowerCase()) {
             text = "True!";
             ct += 1;
             document.getElementById("a").disabled = true;
