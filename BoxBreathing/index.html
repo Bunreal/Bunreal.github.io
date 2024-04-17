@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <title>盒式呼吸練習</title>
+    <style>
+      body {
+        margin: 20px;
+      }
+
+      #container {
+        width: 300px;
+        height: 300px;
+        border: 2px solid black;
+        position: relative;
+        overflow: visible;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 80px;
+      }
+
+      #ball {
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        border-radius: 50%;
+        position: absolute;
+        top: -10px;
+        left: calc(100% - 10px); /* 球初始位置在右上角准备向下移动 */
+        transition: top 4s linear, left 4s linear;
+      }
+
+      .label {
+        position: absolute;
+        color: black;
+        font-size: 20px;
+        z-index: 10;
+      }
+
+      #label-top {
+        top: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      #label-right {
+        top: 50%;
+        right: -90px;
+      }
+
+      #label-bottom {
+        bottom: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      #label-left {
+        top: 50%;
+        left: -90px;
+      }
+
+      #countdown {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px; /* 增加字體大小 */
+        color: rgb(3, 3, 3); /* 更改文字顏色 */
+        background-color: #42d8f6; /* 添加背景顏色 */
+        padding: 10px; /* 添加內邊距 */
+        border-radius: 10px; /* 添加邊角圓度 */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加陰影以提升層次感 */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>盒式呼吸練習</h1>
+    <p>說明：呼吸方式是吸氣4秒、憋氣4秒、吐氣4秒、憋氣4秒</p>
+    <p>製作者：楊淯惇臨床心理師</p>
+    <div id="container">
+      <div id="ball"></div>
+      <div id="countdown"></div>
+      <div class="label" id="label-top">吸氣四秒</div>
+      <div class="label" id="label-right">憋氣四秒</div>
+      <div class="label" id="label-bottom">吐氣四秒</div>
+      <div class="label" id="label-left">憋氣四秒</div>
+    </div>
+    <script>
+      const ball = document.getElementById("ball");
+      const countdownElement = document.getElementById("countdown");
+      const moveDuration = 4000;
+      let countdown = 4;
+
+      function moveBall() {
+        let currentPosition = 1; // Change start position
+        function positionBall() {
+          switch (currentPosition) {
+            case 1: // Move down
+              ball.style.top = "calc(100% - 10px)";
+              currentPosition = 2;
+              break;
+            case 2: // Move left
+              ball.style.left = "-10px";
+              currentPosition = 3;
+              break;
+            case 3: // Move up
+              ball.style.top = "-10px";
+              currentPosition = 0;
+              break;
+            case 0: // Move right
+              ball.style.left = "calc(100% - 10px)";
+              currentPosition = 1;
+              break;
+          }
+        }
+        setInterval(positionBall, moveDuration);
+      }
+
+      function startCountdown() {
+        countdownElement.innerText = countdown;
+        const timer = setInterval(() => {
+          countdown--;
+          countdownElement.innerText = countdown;
+          if (countdown === 3) {
+            moveBall(); // Start ball moving after countdown
+          }
+          if (countdown === 0) {
+            clearInterval(timer);
+            countdownElement.innerText = "開始練習";
+          }
+        }, 1000);
+      }
+
+      window.onload = function () {
+        startCountdown();
+      };
+    </script>
+  </body>
+</html>
