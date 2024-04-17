@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <title>隨機心情產生器</title>
+
+    <style>
+      body {
+        font-family: "Arial", sans-serif; /* 设置字体 */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column; /* 改为纵向布局 */
+        justify-content: center; /* 垂直居中 */
+        align-items: center; /* 水平居中 */
+        height: 100vh; /* 全屏高度 */
+        background-color: #f8f8f8; /* 背景颜色 */
+      }
+      #expressionDisplay {
+        font-size: 100px; /* 字体大小 */
+        color: #333; /* 字体颜色 */
+        padding: 20px;
+        border: 2px solid #333; /* 边框 */
+        background-color: #fff; /* 背景色 */
+        border-radius: 10px; /* 边框圆角 */
+        text-align: center; /* 文字居中 */
+      }
+      button {
+        font-size: 24px; /* 按钮文字大小 */
+        padding: 10px 20px;
+        margin-top: 20px; /* 增加上边距 */
+        cursor: pointer; /* 鼠标样式 */
+        background-color: #007bff; /* 蓝色背景 */
+        color: white;
+        border: none;
+        border-radius: 5px; /* 圆角按钮 */
+      }
+      button:hover {
+        background-color: #0056b3; /* 鼠标悬停颜色变深 */
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      // 定義表情列表
+      const expressions = [
+        "快樂",
+        "悲傷",
+        "生氣",
+        "驚訝",
+        "害怕",
+        "厭惡",
+        "興奮",
+        "放鬆",
+        "困惑",
+        "感激",
+      ];
+
+      // 定義函數來顯示隨機表情
+      function showExpression() {
+        const randomIndex = Math.floor(Math.random() * expressions.length); // 隨機選擇一個索引值
+        const expression = expressions[randomIndex]; // 從列表中獲取表情
+        document.getElementById("expressionDisplay").innerText = expression; // 更新頁面顯示的表情
+      }
+    </script>
+
+    <h1>按一下，就會顯示隨便一個心情！</h1>
+    <button onclick="showExpression()">隨機顯示表情</button>
+    <p id="expressionDisplay">點擊按鈕以顯示表情</p>
+
+    <script>
+      // Javascript 腳本將在後續步驟中添加
+    </script>
+  </body>
+</html>
